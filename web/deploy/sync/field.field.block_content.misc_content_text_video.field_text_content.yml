@@ -1,0 +1,22 @@
+uuid: ae458cb1-abc8-49d4-8c81-1f09964986af
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.misc_content_text_video
+    - field.storage.block_content.field_text_content
+  module:
+    - block_field
+id: block_content.misc_content_text_video.field_text_content
+field_name: field_text_content
+entity_type: block_content
+bundle: misc_content_text_video
+label: misc-content-text-video-text-content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

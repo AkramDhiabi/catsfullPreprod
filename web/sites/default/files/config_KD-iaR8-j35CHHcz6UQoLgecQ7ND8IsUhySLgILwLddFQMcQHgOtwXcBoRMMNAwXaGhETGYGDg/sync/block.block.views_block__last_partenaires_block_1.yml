@@ -1,0 +1,30 @@
+uuid: 94161aeb-876e-49ad-a7cd-a5c79af9f9bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.last_partenaires
+  module:
+    - system
+    - views
+  theme:
+    - lesvillagesbyca
+id: views_block__last_partenaires_block_1
+theme: lesvillagesbyca
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:last_partenaires-block_1'
+settings:
+  id: 'views_block:last_partenaires-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: 3a7f4e98-679d-4fda-bacf-cae6d662d78a
+langcode: en
+status: true
+dependencies: {  }
+name: tall
+label: Tall
+effects:
+  bf994ba4-088d-4438-b421-a2d8cde34dc3:
+    uuid: bf994ba4-088d-4438-b421-a2d8cde34dc3
+    id: image_crop
+    weight: 1
+    data:
+      width: 300
+      height: 400
+      anchor: center-center
+  23ffc330-2ac9-4691-bf05-22e900090025:
+    uuid: 23ffc330-2ac9-4691-bf05-22e900090025
+    id: image_resize
+    weight: 2
+    data:
+      width: 300
+      height: 400

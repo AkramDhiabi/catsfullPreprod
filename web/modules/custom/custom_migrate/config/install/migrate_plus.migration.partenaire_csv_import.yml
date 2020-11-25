@@ -1,0 +1,82 @@
+id: partenaire_csv_import
+label: 'Import des partenaires'
+migration_group: partenaire
+migration_tags:
+  - CSV
+source:
+  plugin: csv
+  path: 'public://import/partenaires.csv'
+  delimiter: ','
+  header_row_count: 1
+  keys:
+    - 'id'
+  fields:
+    id: 'Unique Id'
+    Title: Title
+    Resume: Resume
+    URL du logo: URL de limage
+    URL de site web: Url du site web
+    Village: Village des partenaires
+    Theme1: Thematiques première des partenaires
+process:
+  type:
+   plugin: default_value
+   default_value: partenaire
+  id: id 
+  title: Title
+  field_image/target_id:
+    plugin: migration_lookup
+    migration: photo_import
+    source: 'id'
+  field_image/alt:
+    plugin: default_value
+    default_value: 'Logo du Partenaire'
+  body: Resume
+  field_partenaire_url/uri: 'URL de site web'
+  field_partenaire_url/title:
+    plugin: default_value
+    default_value: 'Accéder au site du partenaire'
+  field_village_partenaire:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: Village
+    -
+      plugin: entity_lookup
+      source: Village
+      value_key: title
+      entity_type: node
+      bundle_key: type
+      bundle: village
+  field_thematiques_partenaire:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: Theme1
+    -
+      plugin: entity_generate
+      source: Theme1
+      entity_type: taxonomy_term
+      bundle_key: vid
+      bundle: thematiques_partenaires
+      value_key: name
+  field_partenaire_village_taxonom:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: Village
+    -
+      plugin: entity_lookup
+      source: Village
+      value_key: name
+      entity_type: taxonomy_term
+      bundle_key: vid
+      bundle: villages
+  status: 1
+  migration_state:
+    plugin: default_value
+    default_value: published
+destination:
+  plugin: 'entity:node'
+  default_bundle: partenaire
+migration_dependencies: null

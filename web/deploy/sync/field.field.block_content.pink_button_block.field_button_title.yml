@@ -1,0 +1,23 @@
+uuid: 3efb1956-c326-4f85-8c7d-159afd4a6be6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pink_button_block
+    - field.storage.block_content.field_button_title
+  module:
+    - link
+id: block_content.pink_button_block.field_button_title
+field_name: field_button_title
+entity_type: block_content
+bundle: pink_button_block
+label: button-title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 2
+field_type: link

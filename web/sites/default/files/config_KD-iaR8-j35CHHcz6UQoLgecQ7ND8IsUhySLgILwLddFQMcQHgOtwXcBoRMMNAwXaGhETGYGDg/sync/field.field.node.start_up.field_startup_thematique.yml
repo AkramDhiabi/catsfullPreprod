@@ -1,0 +1,21 @@
+uuid: 9eec94f0-2700-4552-987d-5bd4c6ab1ab0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_startup_thematique
+    - node.type.start_up
+  module:
+    - options
+id: node.start_up.field_startup_thematique
+field_name: field_startup_thematique
+entity_type: node
+bundle: start_up
+label: Startup-Thematique
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

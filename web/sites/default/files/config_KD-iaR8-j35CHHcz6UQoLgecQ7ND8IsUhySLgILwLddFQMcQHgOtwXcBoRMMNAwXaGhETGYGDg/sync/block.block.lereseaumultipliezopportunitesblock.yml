@@ -1,0 +1,31 @@
+uuid: e785ba00-686b-4e50-be8e-5d0fd658d189
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:3bfdc93f-83d7-48ee-b367-4d514ebaf49d'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: lereseaumultipliezopportunitesblock
+theme: lesvillagesbyca
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:3bfdc93f-83d7-48ee-b367-4d514ebaf49d'
+settings:
+  id: 'block_content:3bfdc93f-83d7-48ee-b367-4d514ebaf49d'
+  label: le-reseau-multipliez-opportunités-block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /le-reseau
+    negate: false
+    context_mapping: {  }

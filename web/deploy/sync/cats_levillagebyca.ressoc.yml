@@ -1,0 +1,34 @@
+webradiotitle: 'ECOUTER NOTRE WEBRADIO'
+playertitle: 'LANCER LE PLAYER'
+webradiourl: 'https://radiovillageinnovation.com/live/1-Radio-Village-Innovation'
+webradiotitlebutton: WEBRADIO
+iconurl: /inline-images/micro-noir.png
+rsTitle: 'NOUS SUIVRE SUR LES RESEAUX SOCIAUX'
+rstitle: 'NOUS SUIVRE SUR LES RESEAUX SOCIAUX'
+ytitle: 'Nous suivre sur Youtube'
+ttitle: 'Nous suivre sur Twitter'
+ltitle: 'Nous suivre sur Linkedin'
+yurl: 'https://www.youtube.com/channel/UCURkpH65ZJGSY_s1FS7o56Q?view_as=subscriber'
+turl: 'https://twitter.com/LeVillagebyCA'
+lurl: 'https://www.linkedin.com/company/18242932/'
+yiconpath: /inline-images/youtube.svg
+ticonpath: /inline-images/twitter.svg
+liconpath: /inline-images/linkedin.svg
+languageTitle: 'CHOIX DE LA LANGUE'
+en:
+  webradiotitle: 'LISTEN OUR WEBRADIO'
+  playertitle: PLAY
+  webradiourl: 'https://radiovillageinnovation.com/live/1-Radio-Village-Innovation'
+  webradiotitlebutton: WEBRADIO
+  iconurl: /inline-images/micro-noir.png
+  rstitle: 'FOLLOW US ON SOCIAL NETWORKS'
+  ytitle: 'Follow us on Youtube'
+  ttitle: 'Follow us on Twitter'
+  ltitle: 'Follow us on LinkedIn'
+  yurl: 'https://www.youtube.com/channel/UCURkpH65ZJGSY_s1FS7o56Q?view_as=subscriber'
+  turl: 'https://twitter.com/LeVillagebyCA'
+  lurl: 'https://www.linkedin.com/company/18242932/'
+  yiconpath: /inline-images/youtube.svg
+  ticonpath: /inline-images/twitter.svg
+  liconpath: /inline-images/linkedin.svg
+  languageTitle: 'LANGUAGE CHOICE'

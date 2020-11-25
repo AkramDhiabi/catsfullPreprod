@@ -1,0 +1,25 @@
+uuid: 3d1b8da1-1850-4298-953e-9ebb00e8849a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.video_content_block
+    - field.storage.block_content.field_video
+  module:
+    - video_embed_field
+id: block_content.video_content_block.field_video
+field_name: field_video
+entity_type: block_content
+bundle: video_content_block
+label: video
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: youtube
+    vimeo: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

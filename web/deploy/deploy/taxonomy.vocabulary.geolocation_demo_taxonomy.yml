@@ -1,0 +1,13 @@
+uuid: 942a2cbb-dac0-4b2b-963f-b360544f6577
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - geolocation_demo
+_core:
+  default_config_hash: NdugwlFZJcBN4HDxLqzGXh2_lDrOladVcfqAPkdeyBM
+name: 'Geolocation Demo - Taxonomy'
+vid: geolocation_demo_taxonomy
+description: 'Providing expample taxonomy support'
+weight: 0

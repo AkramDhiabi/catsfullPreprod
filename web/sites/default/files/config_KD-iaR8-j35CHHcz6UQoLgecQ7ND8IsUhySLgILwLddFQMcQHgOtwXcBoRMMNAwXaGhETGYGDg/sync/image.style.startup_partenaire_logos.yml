@@ -1,0 +1,14 @@
+uuid: 53ae6619-bb9d-46b3-92d5-53c1b1e23871
+langcode: en
+status: true
+dependencies: {  }
+name: startup_partenaire_logos
+label: startup-partenaire-logos
+effects:
+  b1d56f34-cb09-447e-86d6-9ce500318b00:
+    uuid: b1d56f34-cb09-447e-86d6-9ce500318b00
+    id: image_resize
+    weight: 2
+    data:
+      width: 150
+      height: 150

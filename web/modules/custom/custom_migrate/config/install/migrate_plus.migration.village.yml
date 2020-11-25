@@ -1,0 +1,25 @@
+id: village 
+label: 'Import des villages'
+migration_group: village
+migration_tags:
+  - CSV
+source:
+  plugin: csv
+  path: 'public://import/village.csv'
+  delimiter: ','
+  header_row_count: 1
+  keys:
+    - 'id'
+  fields:
+    id: 'Unique Id'
+    Villages: villages
+process:
+  type:
+   plugin: default_value
+   default_value: village
+  id: id 
+  title: Villages
+destination:
+  plugin: 'entity:node'
+  default_bundle: village
+migration_dependencies: null

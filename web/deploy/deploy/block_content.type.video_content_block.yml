@@ -1,0 +1,8 @@
+uuid: e79d8cca-4c9e-475d-b652-9614532ea8fb
+langcode: en
+status: true
+dependencies: {  }
+id: video_content_block
+label: 'Video Content Block'
+revision: 0
+description: 'Embedded video (youtube) content'

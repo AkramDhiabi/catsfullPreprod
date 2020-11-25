@@ -1,0 +1,29 @@
+uuid: 49c2355c-ca88-42d6-8bc7-a5839fcc1877
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_thematiques_start_up
+    - node.type.start_up
+    - taxonomy.vocabulary.thematiques_start_up
+id: node.start_up.field_thematiques_start_up
+field_name: field_thematiques_start_up
+entity_type: node
+bundle: start_up
+label: 'Thématiques start-up'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      thematiques_start_up: thematiques_start_up
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

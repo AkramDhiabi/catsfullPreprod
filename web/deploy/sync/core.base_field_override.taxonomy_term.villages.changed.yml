@@ -1,0 +1,18 @@
+uuid: 5156f6e1-ec8b-4890-84d4-98e55fab89f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.villages
+id: taxonomy_term.villages.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: villages
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

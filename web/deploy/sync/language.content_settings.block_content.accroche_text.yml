@@ -1,0 +1,18 @@
+uuid: 187e017e-33ff-4aaf-bb80-a1630c73128d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_text
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+id: block_content.accroche_text
+target_entity_type_id: block_content
+target_bundle: accroche_text
+default_langcode: site_default
+language_alterable: true

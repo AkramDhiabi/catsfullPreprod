@@ -1,0 +1,34 @@
+uuid: b15964a2-603d-4c91-8a7c-b8f6a11e00a9
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - slick_example
+_core:
+  default_config_hash: wgOVZyfs5OVqpR9hhaVKhkoUSPU3mxGeyjDy2YDUaso
+id: x_grid
+name: x_grid
+label: 'X Grid'
+weight: -5
+group: main
+skin: boxed-carousel
+breakpoints: 0
+optimized: true
+options:
+  options__active_tab: edit-options-settings
+  settings:
+    mobileFirst: true
+    adaptiveHeight: true
+    autoplay: true
+    prevArrow: '<button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" tabindex="0">Previous</button>'
+    nextArrow: '<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" tabindex="0">Next</button>'
+    centerMode: true
+    centerPadding: 6px
+    lazyLoad: ondemand
+    mouseWheel: true
+    randomize: true
+    slidesToShow: 3
+    cssEase: ease-in-out
+    easing: ''
+    variableWidth: true

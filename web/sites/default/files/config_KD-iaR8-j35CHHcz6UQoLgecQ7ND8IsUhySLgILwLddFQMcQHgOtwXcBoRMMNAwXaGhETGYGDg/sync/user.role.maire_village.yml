@@ -1,0 +1,47 @@
+uuid: 8a1d03bc-b1fd-4a95-983d-03f81c3a9e7b
+langcode: en
+status: true
+dependencies: {  }
+id: maire_village
+label: maire-village
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create article content'
+  - 'create audio media'
+  - 'create file media'
+  - 'create image media'
+  - 'create page content'
+  - 'create partenaire content'
+  - 'create remote_video media'
+  - 'create start_up content'
+  - 'create terms in tags'
+  - 'create video media'
+  - 'create village content'
+  - 'delete article revisions'
+  - 'delete own file media'
+  - 'delete own image media'
+  - 'delete own page content'
+  - 'delete own partenaire content'
+  - 'delete own remote_video media'
+  - 'delete own start_up content'
+  - 'delete own video media'
+  - 'delete own village content'
+  - 'delete page revisions'
+  - 'delete partenaire revisions'
+  - 'delete start_up revisions'
+  - 'delete terms in tags'
+  - 'delete village revisions'
+  - 'edit own article content'
+  - 'edit own audio media'
+  - 'edit own file media'
+  - 'edit own image media'
+  - 'edit own page content'
+  - 'edit own partenaire content'
+  - 'edit own remote_video media'
+  - 'edit own start_up content'
+  - 'edit own village content'
+  - 'edit terms in tags'
+  - 'never autoplay videos'

@@ -1,0 +1,31 @@
+uuid: 696cd02d-65d4-4cec-a6da-8b7afe0d969a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:efa9d223-33e0-424f-a51f-df7bb39083bb'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: accueilchiffreclesxsblock
+theme: lesvillagesbyca
+region: content
+weight: -18
+provider: null
+plugin: 'block_content:efa9d223-33e0-424f-a51f-df7bb39083bb'
+settings:
+  id: 'block_content:efa9d223-33e0-424f-a51f-df7bb39083bb'
+  label: accueil-chiffre-cles-xs-block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

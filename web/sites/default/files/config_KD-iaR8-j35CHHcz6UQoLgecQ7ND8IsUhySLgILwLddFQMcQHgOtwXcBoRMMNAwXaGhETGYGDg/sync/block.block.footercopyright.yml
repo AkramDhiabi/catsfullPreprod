@@ -1,0 +1,25 @@
+uuid: 8f79a449-59de-4dbc-ad62-475a15f0f5b8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9dfd1141-575f-4071-b602-c98d3c42a950'
+  module:
+    - block_content
+  theme:
+    - lesvillagesbyca
+id: footercopyright
+theme: lesvillagesbyca
+region: bottomfooter
+weight: 0
+provider: null
+plugin: 'block_content:9dfd1141-575f-4071-b602-c98d3c42a950'
+settings:
+  id: 'block_content:9dfd1141-575f-4071-b602-c98d3c42a950'
+  label: footer-copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: c5bf51b9-fbb8-4af5-907e-6930383d3428
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.video_content_block
+    - field.field.block_content.video_content_block.field_video
+  module:
+    - video_embed_field
+id: block_content.video_content_block.default
+targetEntityType: block_content
+bundle: video_content_block
+mode: default
+content:
+  field_video:
+    weight: 1
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 449
+      autoplay: false
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+hidden:
+  langcode: true

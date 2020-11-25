@@ -1,0 +1,22 @@
+uuid: 4316e7ca-d543-41cc-8eec-78619a9f8774
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.geolocation_demo_taxonomy
+id: taxonomy_term.geolocation_demo_taxonomy.status
+field_name: status
+entity_type: taxonomy_term
+bundle: geolocation_demo_taxonomy
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

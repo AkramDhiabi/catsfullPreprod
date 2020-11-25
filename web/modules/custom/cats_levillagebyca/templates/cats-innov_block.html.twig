@@ -1,0 +1,15 @@
+{% if path('<current>') starts with '/fr' %}
+	<div class="innovation-container">
+		<div class="innovation-text-outer ca-fonts-montserrat-extrabold">{{ innovation }}</div>
+		<div class="ca-fonts-montserrat-regular btn-primary-bis innovation-text-inner"><span class="desc-title">{{ descTitle }}</span><br />
+		{{ desc }}
+		</div>
+	</div>
+{% elseif path('<current>') starts with '/en' %}
+	<div class="innovation-container">
+		<div class="innovation-text-outer ca-fonts-montserrat-extrabold">{{ innovationen }}</div>
+		<div class="ca-fonts-montserrat-regular btn-primary-bis innovation-text-inner"><span class="desc-title">{{ desctitleen }}</span><br />
+		{{ descen }}
+		</div>
+	</div>
+{% endif %}

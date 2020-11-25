@@ -1,0 +1,21 @@
+uuid: 9b8ead04-d5b9-4826-b6c9-6d1ffc4a5961
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.misc_content_block
+    - field.storage.block_content.field_misc_content_text
+  module:
+    - text
+id: block_content.misc_content_block.field_misc_content_text
+field_name: field_misc_content_text
+entity_type: block_content
+bundle: misc_content_block
+label: 'misc content text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

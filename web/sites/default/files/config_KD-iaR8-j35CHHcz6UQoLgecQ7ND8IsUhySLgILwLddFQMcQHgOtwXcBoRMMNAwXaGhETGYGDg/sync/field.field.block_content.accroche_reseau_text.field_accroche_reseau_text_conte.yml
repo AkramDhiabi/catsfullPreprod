@@ -1,0 +1,21 @@
+uuid: c747830d-f25e-4674-9714-86f4716c9c93
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_reseau_text
+    - field.storage.block_content.field_accroche_reseau_text_conte
+  module:
+    - text
+id: block_content.accroche_reseau_text.field_accroche_reseau_text_conte
+field_name: field_accroche_reseau_text_conte
+entity_type: block_content
+bundle: accroche_reseau_text
+label: 'accroche Reseau Text content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

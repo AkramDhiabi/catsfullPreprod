@@ -1,0 +1,10 @@
+{%
+  set classes = [
+    'block-youtube-player',
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+</div>

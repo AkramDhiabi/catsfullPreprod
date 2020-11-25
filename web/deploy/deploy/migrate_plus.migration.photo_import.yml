@@ -1,0 +1,59 @@
+uuid: 7c6c8a50-f5fa-4450-a86f-f526730956b8
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: TULCqHOsWvNJbq82r3Yl55VbsG1Q1r8xygWGRErQJYI
+id: photo_import
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - CSV
+migration_group: partenaire
+label: 'Import des logos'
+source:
+  plugin: csv
+  path: 'public://import/partenaires.csv'
+  delimiter: ','
+  header_row_count: 1
+  keys:
+    - id
+  fields:
+    id: 'Unique Id'
+    'URL du logo': 'URL de limage'
+  constants:
+    file_destination: 'public://partenaire'
+process:
+  id: id
+  destination_filename:
+    -
+      plugin: callback
+      callable: basename
+      source: 'URL du logo'
+    -
+      plugin: skip_on_empty
+      method: row
+  destination_full_path:
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - constants/file_destination
+        - '@destination_filename'
+    -
+      plugin: urlencode
+  source_full_path:
+    -
+      plugin: get
+      source: 'URL du logo'
+    -
+      plugin: urlencode
+  uri:
+    plugin: file_copy
+    source:
+      - '@source_full_path'
+      - '@destination_full_path'
+destination:
+  plugin: 'entity:file'
+migration_dependencies: null

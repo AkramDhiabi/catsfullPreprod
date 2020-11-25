@@ -1,0 +1,22 @@
+uuid: 8227c02b-3d1f-4d0c-8bc2-8ed08b9eb617
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.container_block
+    - field.storage.block_content.field_plugged_block_1
+  module:
+    - block_field
+id: block_content.container_block.field_plugged_block_1
+field_name: field_plugged_block_1
+entity_type: block_content
+bundle: container_block
+label: plugged-block-1
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

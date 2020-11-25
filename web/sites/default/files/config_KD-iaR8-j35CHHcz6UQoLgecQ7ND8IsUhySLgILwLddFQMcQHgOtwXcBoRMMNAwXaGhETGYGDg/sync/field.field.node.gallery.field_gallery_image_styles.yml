@@ -1,0 +1,23 @@
+uuid: 4aead908-4bee-4d9b-ac9d-97fa94c038af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gallery_image_styles
+    - node.type.gallery
+  module:
+    - options
+id: node.gallery.field_gallery_image_styles
+field_name: field_gallery_image_styles
+entity_type: node
+bundle: gallery
+label: 'gallery image styles'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: default
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,91 @@
+{% if path('<current>') starts with '/fr' %}
+<div class="ca-blocks-extern-separator"></div>
+<div class="ca-blocks-chiffres-container">
+	<div class="ca-blocks-title">
+		<h2>{{ uptitle }}</h2>
+	</div>
+	<div class="ca-blocks-intern-separator"></div>
+	<div class="ca-blocks-subtitle-black">
+		<h3>
+			<span class="titre-color-head">{{ downcoloredtitle }}</span> {{ downtitle }}
+		</h3>
+	</div>
+	<div>&nbsp;</div>
+
+	<table id="ca-blocks-chiffres-box">
+		<tbody><tr><td>
+			<div class="ca-blocks-chiffres-item">
+				<div class="ca-blocks-chiffres-chiffres">{{chiffresu}}</div>
+
+				<div class="ca-blocks-chiffres-legends">{{textsu}}</div>
+				</div>
+				</td>
+				<td>
+				<div class="ca-blocks-chiffres-item ">
+				<div class="ca-blocks-chiffres-chiffres">{{chiffrepart}}</div>
+
+				<div class="ca-blocks-chiffres-legends">{{textpart}}</div>
+				</div>
+				</td>
+				<td>
+				<div class="ca-blocks-chiffres-item ">
+				<div class="ca-blocks-chiffres-chiffres">{{chiffrevi}}</div>
+
+				<div class="ca-blocks-chiffres-legends">{{textvi}}</div>
+				</div>
+				</td>
+				<td>
+				<div class="ca-blocks-chiffres-item ">
+				<div class="ca-blocks-chiffres-chiffres">{{chiffrefo}}</div>
+
+				<div class="ca-blocks-chiffres-legends">{{textfo}}</div>
+			</div>
+			</td>
+	</tr></tbody></table>
+</div>
+{% elseif path('<current>') starts with '/en' %}
+<div class="ca-blocks-extern-separator"></div>
+<div class="ca-blocks-chiffres-container">
+	<div class="ca-blocks-title">
+		<h2>{{ uptitleen }}</h2>
+	</div>
+	<div class="ca-blocks-intern-separator"></div>
+	<div class="ca-blocks-subtitle-black">
+		<h3>
+			<span class="titre-color-head">{{ downcoloredtitleen }}</span> {{ downtitleen }}
+		</h3>
+	</div>
+	<div>&nbsp;</div>
+
+	<table id="ca-blocks-chiffres-box">
+		<tbody><tr><td>
+			<div class="ca-blocks-chiffres-item">
+				<div class="ca-blocks-chiffres-chiffres">{{chiffresuen}}</div>
+
+				<div class="ca-blocks-chiffres-legends">{{textsuen}}</div>
+				</div>
+				</td>
+				<td>
+				<div class="ca-blocks-chiffres-item ">
+				<div class="ca-blocks-chiffres-chiffres">{{chiffreparten}}</div>
+
+				<div class="ca-blocks-chiffres-legends">{{textparten}}</div>
+				</div>
+				</td>
+				<td>
+				<div class="ca-blocks-chiffres-item ">
+				<div class="ca-blocks-chiffres-chiffres">{{chiffrevien}}</div>
+
+				<div class="ca-blocks-chiffres-legends">{{textvien}}</div>
+				</div>
+				</td>
+				<td>
+				<div class="ca-blocks-chiffres-item ">
+				<div class="ca-blocks-chiffres-chiffres">{{chiffrefoen}}</div>
+
+				<div class="ca-blocks-chiffres-legends">{{textfoen}}</div>
+			</div>
+			</td>
+	</tr></tbody></table>
+</div>
+{% endif %}

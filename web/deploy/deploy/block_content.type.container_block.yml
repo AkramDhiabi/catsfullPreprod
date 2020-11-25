@@ -1,0 +1,8 @@
+uuid: ccab0d78-f7db-4efc-a313-397d2f7ea7d2
+langcode: en
+status: true
+dependencies: {  }
+id: container_block
+label: 'Container Block'
+revision: 0
+description: 'Container to plugged blocks'

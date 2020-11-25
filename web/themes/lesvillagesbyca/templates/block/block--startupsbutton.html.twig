@@ -1,0 +1,12 @@
+{%
+  set classes = [
+    'row',
+    'justify-content-center',
+    'button-secondary-margin-top',
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+</div>

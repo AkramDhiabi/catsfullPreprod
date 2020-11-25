@@ -1,0 +1,20 @@
+uuid: 8350e763-71df-441b-a479-c5096bbd643c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.test_svg
+  module:
+    - user
+id: node.test_svg.teaser
+targetEntityType: node
+bundle: test_svg
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

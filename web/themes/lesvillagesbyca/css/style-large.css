@@ -1,0 +1,1748 @@
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+.input-recherche-village {
+    margin-left: 1em;
+}
+
+
+#block-views-block-recherche-villages-principal-block .fiche-arrow-container{
+    left: 0.2em;
+}
+
+
+.accroche-text-positionning{
+    top: 120px !important;
+}
+    #ca-blocks-chiffres-box td{
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    #navbar-container a.navbar-brand{
+        margin-right: 1rem;
+        margin-left: -0.5em;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        max-width: 50%;
+    }
+    .main-menu-item > a{
+        font-size: 10px;
+    }
+    #block-languageswitcher{
+        right: -14rem;
+    }
+    .image-display{
+        display: none !important;
+    }
+    .ca-blocks-text-content {
+        min-width: 100%;
+
+    }
+    .ca-blocks-player {
+        margin-top: 30px !important;
+        border-radius: 10px;
+        box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+    }
+
+    .col-md-6.mt-2.ca-fonts-montserrat-medium.village-col-details{
+        margin-left: 2rem;
+    }
+    .photo-gallery-top-image img{
+        max-width: 475px;
+    }
+
+    .innovation-text-outer {
+        top: 60px;
+        left: 0;
+        font-size: 100px !important;
+        margin: auto !important;
+    }
+.nav{
+    height: 70px !important;
+}
+ #navbar-container a.navbar-brand{
+        margin-right: 1rem;
+        margin-left: -0.5em;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        max-width: 50%;
+    }
+    .main-menu-item > a{
+        font-size: 10px;
+    }
+    #block-languageswitcher{
+        right: -14rem;
+    }
+    .image-display{
+        display: none;
+    }
+    .ca-blocks-text-content {
+    min-width: 100%;
+
+}
+.social-links-bar{
+    bottom: 0.5rem !important;
+}
+    .ca-blocks-player {
+        margin-top: 30px;
+        border-radius: 10px;
+        box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+    }
+
+#ca-blocks-chiffres-box td{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+    .col-md-6.mt-2.ca-fonts-montserrat-medium.village-col-details{
+        margin-left: 2rem;
+    }
+    .photo-gallery-top-image img{
+        max-width: 475px;
+    }
+
+.innovation-text-inner {
+    top: 60px;
+}
+.innovation-text-outer{
+    margin-left: 0.6em;
+    font-size: 6em;
+}
+.input-recherche-village {
+    margin-left: 1em;
+}
+
+
+#block-views-block-recherche-villages-principal-block .fiche-arrow-container{
+    left: 0.2em;
+}
+.vignette .container-vignette{
+    margin: 15px;
+}
+
+  .exposed-form-su-part, .filter-form-tablets{
+      margin: 20px 0 20px 0;
+  }
+
+  .exposed-form-su-part img, .filter-form-tablets img{
+    margin-left: -1em !important;
+  }
+
+.vignette{
+    margin: 0;
+}
+.vignette-description{
+    min-height: 15px !important;
+}
+.container-go-site a.vignette-button {
+    margin-left: -1em !important;
+}
+  .label-filter{
+      margin-right: 50px;
+  }
+  .exposed-form-su-part img, .filter-form-tablets img{
+      margin-left: 1em;
+  }
+.accroche-text h1{
+    width: 20em;
+    margin-top: -30px !important;
+    margin-left: 0;
+}
+
+.footer-top {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    
+}
+.topfooter-content {
+    margin-top: 2em !important;
+    margin-bottom: 65px;    
+    margin-left: 2 !important;
+    margin-right: 2em !important;
+    display: flex !important;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: max-content;
+    grid-column-gap: 80px;
+}
+
+#footer-logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+#footer-links {
+ 
+    grid-column-end: 3;
+    margin-bottom: 42px;
+    margin-left: 2em;
+    width: 15em;
+}
+#footer-social {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: 3em;
+    width: 18em;
+        margin-bottom: 40px;
+}
+
+#footer-webradio {
+   grid-row-start: 3;
+    grid-row-end: 4;
+    border: 1px solid #fff;
+    position: relative;
+    height: 135px !important;
+    width: 25em;
+    margin-left: 4em !important;
+}
+.geolocation-map-container.js-show.leaflet-container.leaflet-touch.leaflet-retina.leaflet-fade-anim.leaflet-touch-zoom{
+    margin-left: 0.8em;
+}
+}
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+/* Large devices (laptops/desktops, 769px and up) */
+@media only screen and (min-width: 1024px) {
+    .content  {
+        margin: -50px auto 0 auto;        
+    }
+
+ /* jumbotron settings */   
+    .jumbotron-reseau {
+        height: 389px;
+        background: linear-gradient(150.31deg, rgba(34, 47, 166, 0.77) 24.96%, rgba(155, 211, 225, 0.55) 118.1%),
+        url(../images/header-reseau.jpg);
+        opacity:0.8;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center, center;
+        background-repeat: no-repeat;
+        z-index:-1;
+    }
+    .ca-blocks-text-content {
+        max-width: 75%;
+    }
+    .jumbotron-startups {
+        height: 389px;
+        background: linear-gradient(150.31deg, rgba(34, 47, 166, 0.77) 24.96%, rgba(155, 211, 225, 0.55) 118.1%),
+        url(../images/header-start-up.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center, center;
+        background-repeat: no-repeat;
+        opacity:0.8;
+        z-index:-1;
+    }
+
+    .jumbotron-partenaires {
+        height: 389px;
+        background: linear-gradient(136.89deg, rgba(34, 47, 166, 0.77) 24.96%, rgba(155, 211, 225, 0.55) 118.1%),
+        url(../images/header-start-up.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center, center;
+        background-repeat: no-repeat;
+        opacity:0.8;
+        z-index:-1;
+    }
+
+     .jumbotron-contact {
+        height: 389px;
+        background: linear-gradient(136.89deg, rgba(34, 47, 166, 0.77) 24.96%, rgba(155, 211, 225, 0.55) 118.1%),
+        url(../images/header-start-up.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center, center;
+        background-repeat: no-repeat;
+        opacity:0.8;
+        z-index:-1;
+    } 
+
+    /*  Text and font classes */
+    .ca-blocks-extern-separator {
+        margin-top : 65px;
+    }
+
+   /* button margin top ( front) */
+
+    .button-secondary-margin-top {
+        margin-top: 33px;
+    }
+
+  /* button margins ( le reseau ) */
+
+    .button-secondary-reseau-margin {
+        margin: 25px 0 5px 0;
+    }
+
+
+    .footer-copyright {
+        /* background-color: #1D1045; */
+        height:93px;
+    }
+
+
+
+    /* secondary button-header- positionning */
+    .button-secondary-header-positionning {
+        display: inline-block;
+        margin: 370px 0 0 88px;
+        position: relative;
+    }
+
+   /* shadowed container for blocks : Chiffres clés/ Ils partagent */
+
+     .block-shadowed-container {
+        background-color: #FFF;
+        padding: 25px 0 25px 25px;
+        box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+        border-radius:10px;
+    }
+
+    /* youtube video player settings */
+    .block-youtube-player {
+        width: 863px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+    }
+
+    /* LE Reseau -photo gallery */
+    .photo-gallery-container {
+        height: 865px;
+        margin: 60px -39px 60px -39px;
+    }
+
+    .photo-gallery-left {
+        margin-right: 25px;
+    }
+
+    .photo-gallery-top-image {
+        margin-bottom :25px;
+    }
+
+    .left-gallery-positionning {
+        padding-right: 12.5px;
+        text-align: right;
+        overflow: hidden;
+    }
+
+    .right-gallery-positionning {
+        padding-left: 12.5px;
+        text-align: left;
+    }
+
+    /*Le réseau Innovation background  */
+    .innovation-container {
+          width: 100%;
+          height: 300px;
+         display: flex;
+         position:relative;
+         margin-top:15px;
+    }
+    .innovation-text-outer {
+        font-size: 187px;
+        line-height: 228px;
+        color: #000;
+        opacity: 0.10;
+        z-index: -1;
+        margin: auto;
+        margin-left: -6rem;
+        text-align:center;
+    } 
+    
+    .innovation-text-inner {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 37px;
+        line-height: normal;
+        margin: auto;
+        text-align: center;
+        width: fit-content;
+        max-width: 25em;
+    } 
+
+/*     Menu principal     */
+
+ .main-menu {
+    list-style:none;
+    display:flex;
+  }
+
+  ul.main-menu > li{
+      margin-right: 28px;
+      font-size: 14px;
+    }
+
+  .main-menu-item > * {
+    display: block;
+    color : #1D1045;
+    font-family:'Montserrat';
+    font-weight: 500;
+    transition: all 0.25s ease-in;
+  }
+
+  .main-menu-item > a {
+    text-decoration:none;
+    transition: all 0.25s ease-in;
+  }
+
+  .main-menu-item > a:hover, .main-menu-item--active-trail > a {
+    color:#ff2655;
+    position:relative; 
+    display: inline-block;
+    border-bottom: 2.5px solid #ff2655;
+    padding-bottom:20px;
+    transition: all 0.25s ease-in;
+  }
+
+  .main-menu-item > a:hover::before, .main-menu-item--active-trail > a::before{
+    content:""; 
+    display:block; 
+    position:absolute; 
+    bottom:0; 
+    width:100%; 
+    height:2.5px;                          
+    opacity:.3;
+    border-bottom: 2.5px solid #ff2655;
+  }
+
+
+/*   -------------------------Slick caroussel module-------------------------------------  */
+/* slick slider */
+    .slick-slide {
+    margin: 0 10px;
+   }
+
+  #slick-views-slick-y-block-1-1-slider .slick-list {
+    margin: 0 50px 0 50px;
+    position: relative;
+    display: block;
+    overflow-x: hidden;
+    height: 450px;
+  }
+  .slick-slide {
+    margin: 0 6px;
+  }
+
+  .slick img,slick iframe {
+     height:400px;
+     width:300px;
+   }
+
+  .slick-prev,slick-next {
+    color: #ff2655;
+  }  
+
+  .slick-arrow::before {
+    color: #ff2655;
+    font-size: 24px;
+    transition: all 0.25s ease-in;
+ } 
+
+ .icon-prev {
+    background: url(../images/left-arrow.png) ;
+    width:24px;
+    height:24px;
+    border:0;
+ }
+
+.icon-next {
+    background: url(../images/right-arrow.png) ;
+    width:24px;
+    height:24px;
+    border:0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+ .slick-dots {
+    position: absolute;
+    bottom: -40px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+ }
+  
+  /* caroussel village title */
+  .village-title-wrapper {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #FFF;
+      z-index: 10;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+  }
+  #views-exposed-form-recherche-villages-principal-block .chosen-container {
+      width: 300px !important;
+  }
+
+  .village-title-text {
+      text-align:center;
+      vertical-align:middle;
+      line-height:70px;
+      font-size:1em;
+      color: #000;
+        margin-bottom: 0.5rem;
+        font-family: inherit;
+        font-weight: 500;
+        margin-top: 0;
+  }
+
+   .village-desc {
+        display:block;
+        font-family:'Muli';
+        font-size:18px;
+        color :#FFF;
+        text-align:center;
+        margin-bottom:20px;
+        text-overflow: ellipsis;
+        line-height:normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 175px;
+   }
+
+   h4.village-hover-title {
+        display: block;
+        margin-top:50px;
+        margin-bottom:5px;
+        font-size:22px;
+        font-family: 'Montserrat';
+        color: #FFF;
+        text-transform: uppercase;
+        text-align:center;
+   }
+
+   hr.separator-village {
+      display: block;
+      border-top: 1px solid #FFF;
+      padding-right:5px;
+      padding-left:5px;
+   }
+
+   a.village-url-button {
+        display:block;
+        font-family:'Montserrat';
+        font-weight:500;
+        font-size:14px ;
+        color: #fff;
+        text-transform: uppercase;
+        border : 1px solid #FFF;
+        border-radius: 10px;
+        padding: 10px 5px 10px 5px;
+        text-align: center;
+        text-decoration: none;
+        margin-right: 30px;
+        margin-left: 30px;
+        transition: all 0.25s ease-in;
+   }
+
+   a.village-url-button.hidden:hover  {
+      transition: all 0.25s ease-in;
+      background-color: #E76C89;
+      border-color: #E76C89;
+   }
+
+   .village-row {
+       cursor: pointer;
+   }
+   
+/*   fiche village settings     */
+
+    .fiche {
+        display: none;
+        position: absolute;
+        width: 100%;
+        width: -moz-available;
+        width: -webkit-fill-available;
+        HEIGHT: 638px;
+        border-radius: 20px;
+        box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+        /* right: 5px; */
+        /* margin-bottom: -10px; */
+        left: -1px;
+        bottom: px;
+        top: 1px;
+        z-index: 10;
+    }
+
+    .clicked {
+        display:block;
+    }
+
+    .fiche-container {
+        background-color: #1D1045;
+        z-index: 10;
+        width: auto;
+    }
+
+    .fiche-container > * {
+        color : #FFF;
+        text-align: center;
+        margin-bottom:20px;
+    }
+
+    .fiche-image-container {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        height: 250px;
+        z-index: 10;
+        background-color: grey;
+    }
+    
+    .fiche-startups-partenaires {
+        height: 70px;
+        padding: 10px;
+    }
+
+    .fiche-title {
+        padding-top: 20px;
+        font-size:22px;
+        text-transform: uppercase;
+    }
+
+    .separator-fiche {
+        display: block;
+        border-top: 1px solid #FFF;
+        margin: 20px 30% 20px 30%;
+    }
+
+    .fiche-footer {
+        z-index: 10;
+        display: block;
+        width: auto;
+        background-color: #FFF;
+        padding-top: 20px;
+        margin-top: -20px;
+        min-height: 225px;
+    }
+
+    .fiche-desc {
+        position: relative;
+        font-size: 18px;
+        line-height: normal;
+        margin-bottom: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0 auto 10px auto;
+        width: 70%;
+        height: 65px;
+        text-align: center;
+    }
+
+    .fiche-content-link {
+        text-decoration: none;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+
+    .carte-village {
+        box-shadow : 7px 0 4px rgba(0, 0, 0, 0.15);
+        height:638px;
+    }
+
+    #block-views-block-recherche-villages-principal-block .view-recherche-villages .view-content {
+        overflow-y: auto;
+        height: 570px;
+    }
+    /*label filter */
+    .label-filter{
+        width: auto;
+    }
+
+  /* specific card (startup/partenaires) settings */
+ .vignette {
+    margin: 0 0 40px;
+  }
+  .vignette .container-vignette {
+    background: #F7F7F7;
+    border-radius: 10px;
+    padding: 30px;
+    transition: all 0.25s ease-in;
+    height: 570px;
+  }
+  .vignette-separator {
+      height:25px;
+      width:auto;
+      border:1px solid;
+  }
+.vignette .container-vignette:hover {
+  background : #FFF;
+  box-shadow: 0 4px 64px rgba(0, 0, 0, 0.25);
+  transition: all 0.25s ease-in;
+}
+  .vignette-logo-container {
+      position:relative;
+      max-width: 100%;
+      max-height: 100%;
+      height: 150px;
+      margin:auto auto 25px auto;
+      text-align:center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .vignette-logo-container img {
+    display: block;
+    max-width: inherit;
+    max-height: 95px;
+    width: auto;
+    height: auto;
+  }
+
+  .vignette-description {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin-bottom: 70px;
+    font-size: 18px;
+    color:#000;
+    line-height:29px;
+    height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  .view-display-id-block_2 .vignette-button {
+        position:absolute;
+        bottom: 25px;
+        padding:10px 24px;
+        background-color:#ff2655;
+        border:none;
+        border-radius:5px;
+        text-align:center;
+        transition: all 0.25s ease-in; 
+        text-decoration:none;
+        text-transform: uppercase;
+        color:#FFF;
+        font-size:14px;
+        width: 214px;
+  }
+
+  .view-display-id-block_1 .vignette-button {
+        position:absolute;
+        bottom: 25px;
+        padding:10px 24px;
+        background-color:#ff2655;
+        border:none;
+        border-radius:5px;
+        text-align:center;
+        transition: all 0.25s ease-in;
+        text-decoration:none;
+        text-transform: uppercase;
+        color:#FFF;
+        font-size:14px;
+        width: 214px;
+  }
+  
+  .vignette-button:active,.vignette-button:hover {
+      background-color:#B72A48;
+      transition: all 0.25s ease-in;
+      cursor: pointer;
+  }
+
+  .container-go-site {
+	display: flex;
+	justify-content: center;
+  }
+
+/* couche qui superpose la vignette en hover  */
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(29, 16, 69, 0.82);
+    transition: all 0.25s ease-in;
+    padding:10px;
+  }
+
+    .slick__slide:hover .overlay {
+        opacity: 1;
+        transition: all 0.25s ease-in;
+    }
+
+  /*  header social icons styling/on hover */
+  .social-links-bar {
+    float: right;
+    margin-right: -290px;
+    position: relative;
+    right: 4rem;
+    bottom: 1.2rem;
+  }
+  .social-links-inter-margin {
+    margin-right:10px;
+  }
+
+  .social-links-extra-margin {
+    margin-right:14px;
+  }
+
+  .flag-language {
+   height:24;
+   width:24;
+   border-radius:50%;
+  }
+  #block-languageswitcher .encaps {
+    cursor: pointer;
+    padding: 5px;
+    height: 57px;
+    position: absolute;
+    top: -1.15rem;
+    right: -1.8rem;
+  }
+  #block-languageswitcher .encaps:hover {
+    border: none;
+    background-color: #FFF;
+    color: #FFF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.32);
+    //transition: all 0.25s ease-in;
+    display: block;
+  }
+  .encaps.langue-fr .en {
+      display: none;
+  }
+  .encaps.langue-en .fr {
+      display: none;
+  }
+
+ /****************************************************   HEADER  ******************************************************/
+ 
+ /* accroche text */
+#block-lereseauaccrochetexte, #block-startupsaccrochetexte, #block-partenairesaccrochetext {
+    position: relative;
+}
+    .accroche-text h1  {
+    color:#FFF;
+    font-size:40px;
+    line-height:initial;
+    }
+
+   /* accroche reseau text positionning */
+    .accroche-reseau-text-positionning {
+        position: absolute;
+        margin-left: 94px;
+        top: 140px;
+        width: 40%;
+     }
+
+     /* accroche startup/partenaires text positionning */
+     .accroche-startup-text-positionning {
+        position: absolute;
+        margin-left: 94px;
+        top: 160px;
+        width: 40%;
+     }
+
+    /* accroche text positionning */
+    .accroche-text-positionning  {
+        position: absolute;
+        height: 130px;
+        margin-left: 88px;
+        top: 220px;
+        width: 40%;
+    }
+
+    nav {
+        overflow:visible;
+        height:62px;
+        z-index:150;
+    } 
+
+     #navbar-container{
+        padding-top: 40px;
+    } 
+
+    .navbar-brand {
+        height:126px;
+        width:126px;
+        margin-right: 20%;
+        margin-left: -115px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        display:inline-block;
+        background:url(../images/logo-noir.jpg)
+    } 
+
+
+    .jumbotron-home {
+        height: 547px;
+        background: linear-gradient(90deg, rgba(34, 47, 166, 0.77) 24.96%, rgba(155, 211, 225, 0.55) 118.1%),
+        url(../images/header-home-page.jpg);
+        opacity:0.8;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center, center;
+        background-repeat: no-repeat;
+        z-index:9;
+     }
+
+   
+
+  /*************************************************   CONTENT *****************************************************/
+    
+    .ca-blocks-title h2 {
+    font-size: 30px;
+    font-family:'Montserrat';
+    font-weight: 100 ; /* light */
+    color: #B6AEAE;
+    }
+  
+   .ca-blocks-subtitle-black h3 {
+    font-size: 37px;
+    font-family:'Montserrat';
+    font-weight: 600;  /* Semibold */
+    color: #000;
+   }
+    
+    .image-display {
+      display:initial;
+    }
+
+    .ca-blocks-player {
+        width: 863px;
+        margin: auto;
+        margin-top: -120px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+    } 
+
+
+
+    /* block CHIFFRES CLES */
+
+
+    /* disply:false */
+    .ca-xs-blocks-title {
+        display:none;
+    }
+
+    .ca-xs-blocks-subtitle-black {
+        display:none;
+    }
+
+    .ca-xs-blocks-intern-separator {
+        display:none;
+    }
+    
+    .ca-xs-blocks-chiffres-container {
+          display:none;
+    }
+
+    #ca-xs-blocks-chiffres-box {
+         display:none;
+    }
+
+    .ca-xs-blocks-subtitle-secondary-bis {
+       display:none;
+    }
+
+    .ca-xs-blocks-chiffres-item {
+     display:none;
+    }
+
+  .ca-xs-blocks-chiffres-chiffres {
+    display:none;
+  }
+
+  .ca-xs-blocks-chiffres-legends {
+    display:none;
+  } 
+
+    /** display:true*/ 
+   
+    .ca-blocks-chiffres-container {
+        background-color: #FFF;
+        padding: 65px 0 65px 25px;
+        box-shadow: 0 24px 64px rgba(0,0,0,0.1);
+        border-radius: 10px;
+
+    }
+
+    #ca-blocks-chiffres-box td {
+      border: 1px solid #A3D9E7;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      vertical-align: baseline;
+      max-width: 265px;
+     }
+
+    #ca-blocks-chiffres-box {
+      margin: 0 auto;
+      border-collapse: collapse;
+      border-style: hidden;
+      text-align:center;
+    }
+  
+     .ca-blocks-chiffres-item {
+      padding: 10px;
+      text-align: center;
+      margin: auto;
+    }
+    
+    .ca-blocks-chiffres-chiffres {
+     font-family:'Muli';
+     font-weight:400;
+     font-size: 60px;
+     color:#A3D9E7;
+     margin-bottom:-10px;
+    }
+
+   .ca-blocks-chiffres-legends {
+    font-family:'Muli';
+    font-size: 20px;
+    font-weight:700;
+    color:#000;
+   }
+
+   /* video youtube cover */
+   .ytp-cued-thumbnail-overlay-image {
+       background-image:url("https://via.placeholder.com/150") !important;
+   }
+
+   div#block-accueilseparatorblock {
+    border: 1px solid transparent;
+    height: 50px;
+   }
+
+/***************************************************Footer**********************************************************/
+     .footer-top {
+        height:245px;
+        background-color: #080025;
+        padding: 10px 88px 88px 88px;
+    }
+ 
+    .topfooter-content {
+        margin-top:65px;
+        margin-bottom:65px;
+        display: flex;
+        justify-content: space-evenly;
+        grid-template-columns: auto auto auto 250px;
+        grid-template-rows: 1fr;
+        grid-column-gap: 80px;
+        max-height: 120px;
+    }
+
+    /****footer**logo**/
+    #footer-logo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #footer-links {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .footer-links-title {
+        font-family :'Montserrat';
+        font-size:18px;
+        font-weight:600;
+        color : #A3D9E7;
+    }
+
+    .footer-links-links {
+        display:block;
+        font-family :'Montserrat';
+        font-size:16px;
+        font-weight:500;
+        color : #FFF;
+        text-decoration:none;
+        transition: all 0.25s ease-in;
+     }
+
+    /****footer**social links**/
+    #footer-social {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    }
+
+    .footer-social-icons {
+        margin-right:10px;
+    }
+
+    /****footer**webradio**/
+    #footer-webradio {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        border: 1px solid #fff;
+        position: relative;
+    }
+
+    .footer-webradio-title {
+        color:#FFF;
+        font-size:14px;
+        font-family:'Montserrat';
+        font-weight:500;
+        text-align:center;
+        padding:10px;
+    }
+
+    .button-footer-webradio {
+        padding:16px;
+        background-color:#F4CC66;
+        color:#1D1045;
+        font-size:14px;
+        font-family:'Montserrat';
+        font-weight:500;
+        border:none;
+        border-radius:5px;
+        text-align:center;
+        transition: all 0.25s ease-in;
+    }
+
+    .button-footer-webradio:hover {
+        background-color: #D7AC3E;
+    }
+
+    .footer-webradio-micro-container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #080025;
+        position: absolute;
+        right: 88%;
+        bottom: 20%;
+        transform: translateX(-60%);
+
+    }
+    .footer-webradio-micro-container img {
+        height: 35px;
+        width: 25px;
+    }
+    .header-link-social-network {
+        display: none;
+    }
+    .button-footer-webradio.header {
+        display: none;
+    }
+
+    /****bottom**footer**/
+    #bottomfooter {
+        grid-area: bottomfooter;
+        background:#1D1045;
+        color:#FFF;
+        font-size:16px;
+        font-family:'Montserrat';
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+
+    .bottom-footer-font {
+        color: #FFF;
+        font-family :'Montserrat';
+        font-weight:500;
+        font-size:16px;
+    }
+
+    .bottom-footer-container {
+        color:white;
+        margin-right:88px;
+        margin-left:88px;
+        margin-top:25px;
+    }
+
+    .bottom-footer-copyright {
+        display:inline-block;
+        float:left;
+    }
+
+    .bottom-footer-mentions {
+        display:inline-block;
+    }
+
+    footer .region-bottomfooter .field--type-text-with-summary {
+        font-weight: 200;
+        font-size: 16px;
+    }
+
+    footer .region-bottomfooter .field--type-text-with-summary > div {
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer .region-bottomfooter {
+        margin-top: 15px;
+    }
+
+    .bottom-footer-mentions a {
+        color: white;
+        transition: all 0.25s ease-in;
+    }
+
+    .bottom-footer-mentions a:hover {
+        color: #ff2655;
+        transition: all 0.25s ease-in;
+        text-decoration: none;
+    }
+
+    /******no mobile ************/
+      .side-collapse-container{
+        display:none;
+    }
+    .side-collapse-container.out{
+        display:none;
+    }
+    .side-collapse {
+        display:none;
+    }
+    .side-collapse.in {
+       display:none;
+    }
+ 
+
+   /****sticky menu ****************/
+   .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    #navbar-sticky {
+        background-color:#FFF;
+        box-shadow: 0 2px 42px rgba(0,0,0,0.2);
+    }
+
+
+    /**** no sidenav***********/
+    .sidenav {
+        display:none;
+    }
+
+
+    .sidenav .closebtn {
+        display:none;
+    }
+
+    /**geolocation  ***/
+
+    .geolocation-map-container {
+        height: 638px;
+        width: 90%;
+        position: relative;
+        margin-left: 0.8em;
+    }
+
+    div#block-views-block-recherche-villages-principal-block{
+        border-radius: 20px 0 0 20px;
+        overflow: hidden;
+    }
+
+    /*               align startup/partenaire filters               */
+    .form-item, .form-actions {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-right: 1em;
+        display: inline-block;
+    }
+
+    ul.chosen-choices {
+        box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.14);
+        border-radius:20px;
+    }
+
+    ul.chosen-choices li > input:-webkit-input-placeholder {
+        font-family: 'Montserrat';
+        font-weight:600;
+        font-size: 14px;
+        line-height: 17px;
+        color:#C4C4C4;
+    }
+
+    ul.chosen-choices li > input:-ms-input-placeholder {
+        font-family: 'Montserrat';
+        font-weight:600;
+        font-size: 14px;
+        line-height: 17px;
+        color:#C4C4C4;
+    }
+
+    ul.chosen-choices li > input:-moz-placeholder {
+        font-family: 'Montserrat';
+        font-weight:600;
+        font-size: 14px;
+        line-height: 17px;
+        color:#C4C4C4;
+    }
+
+    ul.chosen-choices li > input:-moz-placeholder {
+        font-family: 'Montserrat';
+        font-weight:600;
+        font-size: 14px;
+        line-height: 17px;
+        color:#C4C4C4;
+    }
+    input#edit-title {
+        box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.14);
+        border-radius:20px;
+        text-align:center;
+    }
+
+    #block-accueilnospartenairesblock .field--name-field-text,
+    #block-accueilnosstartupsblock .field--name-field-text,
+    #block-accueilnosvillagesblock .field--name-field-text {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .input-recherche-village {
+        display: inline;
+    }
+    .input-recherche-village input.form-autocomplete {
+        width: 275px;
+        background-image: none;
+        border-style: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    .input-recherche-village .form-item-field-village-vocabulaire-target-id {
+        text-align: left;
+    }
+
+    .input-text-recherche-village {
+        min-width: 275px;
+    }
+    #edit-submit-startups-listing,
+#edit-reset-recherche-village {
+  vertical-align: middle;
+  transition: all 0.25s ease-in;
+}
+    /* Scroll infinite */
+    .ajax-progress-fullscreen {
+        background: url('images/status-active.gif') no-repeat center center;
+        min-height: 30px;
+        //opacity: .9;
+        padding: 10px;
+        vertical-align: middle;
+        width: 100px;
+        position: relative;
+    }
+    /* General */
+    .footer-links-title-link {
+        margin-right:10px;
+        width:40px;
+        height:40px;
+    }
+    .button-footer-webradio-container {
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+    }
+    .bottom-footer-copyright-span {
+        color:#ffffff;
+    }
+    .titre-accelerator {
+        color:#f4cc66;
+    }
+    .topfooter.col-lg-12.col-md-12.col-xs-12{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+   /* logo (startup/partenaire) margin */
+
+    .logo-margin {
+    margin-bottom:30px;
+    }
+
+    .logo-margin img {
+        /*min-width: 50%;
+        min-height: 50%;
+        max-width: 200px;
+        max-height: 150px;
+        width: auto;
+        height: auto;*/
+        display: block;
+        max-width: 199px;
+        max-height: 155px;
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+    #block-decouvrezreseaubutton a,
+    #block-startupsbutton a,
+    #block-partenairesbutton a,
+    #block-lereseauilspartagentblock .field--name-field-button .row a,
+    #block-views-block-recherche-villages-principal-block .fiche a {
+        padding:20px;
+        background-color:#ff2655;
+        color:#FFF;
+        font-size:18px;
+        font-family:'Montserrat';
+        font-weight:300;
+        border:none;
+        border-radius:5px;
+        box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.32);
+        transition: all 0.25s ease-in;
+    }
+}
+/*****************IE 10 et +*************************/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+ .input-recherche-village {
+    margin-left: 1em;
+}
+
+
+#block-views-block-recherche-villages-principal-block .fiche-arrow-container{
+    left: 0.2em;
+}
+
+
+.accroche-text-positionning{
+    top: 200px !important;
+}
+    #ca-blocks-chiffres-box td{
+        padding-left: 4rem !important;
+        padding-right: 4rem !important;
+    }
+    #navbar-container a.navbar-brand{
+        margin-right: 1rem;
+        margin-left: 1emem;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        max-width: 65%;
+    }
+    .social-links-bar{
+        bottom: 1em;
+    }
+    .main-menu-item > a{
+        font-size: 10px;
+    }
+    #block-languageswitcher{
+        right: -14rem;
+    }
+
+
+    .col-md-6.mt-2.ca-fonts-montserrat-medium.village-col-details{
+        margin-left: 2rem;
+    }
+    .photo-gallery-top-image img{
+        max-width: 100%;
+    }
+
+    .innovation-text-outer {
+        top: 60px;
+        left: 0;
+        font-size: 100px !important;
+        margin: auto !important;
+    }
+.nav{
+    height: 70px !important;
+}
+ #navbar-container a.navbar-brand{
+        margin-right: 1rem;
+        margin-left: -0.5em;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        max-width: 50%;
+    }
+    .main-menu-item > a{
+        font-size: 10px;
+    }
+    #block-languageswitcher{
+        right: -14rem;
+    }
+
+.social-links-bar{
+    bottom: 1.1em !important;
+}
+     .ca-blocks-title h2 {
+    font-size: 30px;
+    font-family:'Montserrat';
+    font-weight: 100 ; /* light */
+    color: #B6AEAE;
+    }
+  
+   .ca-blocks-subtitle-black h3 {
+    font-size: 37px;
+    font-family:'Montserrat';
+    font-weight: 600;  /* Semibold */
+    color: #000;
+   }
+    
+    .image-display {
+      display:block;
+      margin-top: -20em !important;
+      margin-left: 40% !important;
+    
+    }
+
+    .ca-blocks-player {
+        width: 863px;
+        margin: auto;
+       
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+    } 
+
+    .col-md-6.mt-2.ca-fonts-montserrat-medium.village-col-details{
+        margin-left: 3rem !important;
+    }
+    .vignette-logo-container img {
+        max-width: 150px;
+    }
+
+.vignette{
+    height: 38em !important;
+}
+ .vignette-description {
+        
+        margin-bottom: 60px;
+        /**margin-botton:60px*/
+        font-size: 18px;
+        color:#000;
+        line-height:29px;
+        min-height: 20em !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .container-go-site a.vignette-button{
+
+         bottom: 3em;
+        position: absolute;
+        width: 200px;
+        margin-left: -8em;
+        margin-right: auto;
+    }
+
+
+    .container-go-site {
+       display: flex;
+        bottom: 1em;       
+        position: absolute;
+        width: 80%;
+    }
+    .footer-top {
+  padding: 10px 88px 88px 4.5em;
+
+    
+}
+.topfooter-content {
+    margin-top: 2em !important;
+    margin-bottom: 65px;    
+    margin-left: 2em !important;
+    margin-right: 2em !important;
+    display: flex !important;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: max-content;
+    grid-column-gap: 80px;
+}
+
+#footer-logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-right: 8em !important;
+
+}
+#footer-links {
+ 
+    grid-column-end: 3;
+    margin-bottom: 42px;
+    margin-left: 2em;
+    width: 15em;
+}
+#footer-social {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: 3em;
+    width: 20em;
+        margin-bottom: 40px;
+}
+
+#footer-webradio {
+   grid-row-start: 3;
+    grid-row-end: 4;
+    border: 1px solid #fff;
+    position: relative;
+    height: 135px !important;
+    width: 25em;
+    margin-left: 6em !important;
+}
+ .footer-webradio-micro-container{
+     right: 91% !important;
+ }
+  
+
+}
+
+
+
+/***-----------------EDGE------------------------------------***/
+@supports (-ms-ime-align:auto) {
+    
+  .input-recherche-village {
+    margin-left: 1em;
+}
+
+
+#block-views-block-recherche-villages-principal-block .fiche-arrow-container{
+    left: 0.2em;
+}
+
+
+.accroche-text-positionning{
+    top: 200px !important;
+}
+    #ca-blocks-chiffres-box td{
+        padding-left: 4rem !important;
+        padding-right: 4rem !important;
+    }
+    #navbar-container a.navbar-brand{
+        margin-right: 1rem;
+        margin-left: -0.5em;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        max-width: 50%;
+    }
+    .social-links-bar{
+        bottom: 1em;
+    }
+    .main-menu-item > a{
+        font-size: 10px;
+    }
+    #block-languageswitcher{
+        right: -14rem;
+    }
+
+
+    .col-md-6.mt-2.ca-fonts-montserrat-medium.village-col-details{
+        margin-left: 2rem;
+    }
+    .photo-gallery-top-image img{
+        max-width: 100%;
+    }
+
+    .innovation-text-outer {
+        top: 60px;
+        left: 0;
+        font-size: 100px !important;
+        margin: auto !important;
+    }
+.nav{
+    height: 70px !important;
+}
+ #navbar-container a.navbar-brand{
+        margin-right: 1rem;
+        margin-left: -0.5em;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        max-width: 50%;
+    }
+    .main-menu-item > a{
+        font-size: 10px;
+    }
+    #block-languageswitcher{
+        right: -14rem;
+    }
+
+.social-links-bar{
+    bottom: 1.1em !important;
+}
+    .ca-blocks-player {
+       
+        border-radius: 10px;
+        box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+    }
+
+    .footer-top {
+  padding: 10px 88px 88px 88px;
+    
+}
+.topfooter-content {
+    margin-top: 2em !important;
+    margin-bottom: 65px;    
+    margin-left: 2em !important;
+    margin-right: 2em !important;
+    display: flex !important;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: max-content;
+    grid-column-gap: 80px;
+}
+
+#footer-logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-right: 12em !important;
+
+}
+#footer-links {
+ 
+    grid-column-end: 3;
+    margin-bottom: 42px;
+    margin-left: 2em;
+    width: 15em;
+}
+#footer-social {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: 3em;
+    width: 18em;
+        margin-bottom: 40px;
+}
+
+#footer-webradio {
+   grid-row-start: 3;
+    grid-row-end: 4;
+    border: 1px solid #fff;
+    position: relative;
+    height: 135px !important;
+    width: 25em;
+    margin-left: 4em !important;
+}
+ .footer-webradio-micro-container{
+     right: 91% !important;
+ }
+  
+
+}
+
+
+
+
+
+
+
+

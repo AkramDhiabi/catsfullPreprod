@@ -1,0 +1,22 @@
+uuid: 1d471d65-64df-49a9-96ce-20c04d91c97e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_startup_text
+    - field.field.block_content.accroche_startup_text.field_accroche_startup_text_cont
+  module:
+    - text
+id: block_content.accroche_startup_text.default
+targetEntityType: block_content
+bundle: accroche_startup_text
+mode: default
+content:
+  field_accroche_startup_text_cont:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

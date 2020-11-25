@@ -1,0 +1,11 @@
+{%
+  set classes = [
+      'col-md-6',
+      'image-display'
+  ]
+%}
+
+{% for item in items %}
+    <div style="margin-top:20%"  {{ attributes.addClass(classes) }}>{{ item.content }}</div>
+{% endfor %}
+

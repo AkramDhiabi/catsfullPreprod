@@ -1,0 +1,18 @@
+uuid: ade3c062-3cd8-4c84-9996-cc434d9703e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.thematiques_start_up
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.thematiques_start_up
+target_entity_type_id: taxonomy_term
+target_bundle: thematiques_start_up
+default_langcode: site_default
+language_alterable: false

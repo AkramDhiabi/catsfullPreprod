@@ -1,0 +1,18 @@
+uuid: 5b1121b9-7d28-43da-9683-668978d2a395
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pink_button_block
+id: block_content.pink_button_block.info
+field_name: info
+entity_type: block_content
+bundle: pink_button_block
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

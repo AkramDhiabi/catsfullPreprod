@@ -1,0 +1,46 @@
+<div id="mySidenav" class="sidenav" style="width: 0;">
+	<div class="sidenav-container">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+		  <a class="navbar-brand" href="{% if path('<current>') starts with '/en' %}/en{% else %}{{ front_page }}{% endif %}"></a>
+		  <a href="{% if path('<current>') starts with '/en' %}/en{% else %}{{ front_page }}{% endif %}" data-drupal-link-system-path="node" class="is-active home-button" onclick="closeNav()">ACCUEIL</a>
+      {{page.primarymenu}}
+		  {{page.secondarymenu}}
+		  {% include '@lesvillagesbyca/navigation/links--language-block.html.twig' %}
+	</div>
+</div>
+<nav id="navbar-sticky" class="navbar navbar-dark bg-light navbar-expand-lg static-top">
+  <div class="container" id="navbar-container">
+    <a class="navbar-brand" href="{% if path('<current>') starts with '/en' %}/en{% else %}{{ front_page }}{% endif %}"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"   aria-expanded="false" aria-label="Toggle navigation" onclick="openNav()">
+          <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+    {{page.primarymenu}}
+    </div>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+    {{page.secondarymenu}}
+    </div>
+	</div>
+</nav>
+<div class="jumbotron-{% if path('<current>') ends with 
+  '/le-reseau' %}reseau{% elseif path('<current>') ends with 
+  '/startups' %}startups{% elseif path('<current>') ends with 
+  '/partenaires' %}partenaires{% else %}home{% endif %}">
+  {{ page.jumbotron }}
+</div>
+<div class="content container">
+  {{ page.content }}
+</div>
+<footer>
+		<!-- Footer top -->
+		<div class="footer-top">
+          {{page.topfooter}}
+    </div>
+		<!-- Footer top -->
+	  
+		<!-- Footer bottom: copyright -->
+		<div class="footer-copyright text-center py-3" style="background-color:#1D1045">
+      {{page.bottomfooter}}
+    </div>
+		<!-- Copyright -->  
+</footer>

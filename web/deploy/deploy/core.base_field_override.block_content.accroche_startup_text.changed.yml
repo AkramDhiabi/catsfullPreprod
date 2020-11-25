@@ -1,0 +1,18 @@
+uuid: 7f707e14-ed77-4273-b4a8-988c6d87ad9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_startup_text
+id: block_content.accroche_startup_text.changed
+field_name: changed
+entity_type: block_content
+bundle: accroche_startup_text
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

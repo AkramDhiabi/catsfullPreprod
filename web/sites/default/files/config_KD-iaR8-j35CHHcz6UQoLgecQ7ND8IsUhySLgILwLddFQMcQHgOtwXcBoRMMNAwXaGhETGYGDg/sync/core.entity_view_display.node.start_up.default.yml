@@ -1,0 +1,75 @@
+uuid: 145df005-c9cb-40e1-9af4-812cccbaa66d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.start_up.body
+    - field.field.node.start_up.field_startup_thematique
+    - field.field.node.start_up.field_village_hote
+    - field.field.node.start_up.field_village_logo
+    - field.field.node.start_up.field_village_url
+    - node.type.start_up
+  module:
+    - link
+    - options
+    - svg_image
+    - text
+    - user
+id: node.start_up.default
+targetEntityType: node
+bundle: start_up
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_startup_thematique:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_village_hote:
+    weight: 5
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_village_logo:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+      svg_render_as_image: '1'
+      svg_attributes:
+        width: ''
+        height: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_village_url:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

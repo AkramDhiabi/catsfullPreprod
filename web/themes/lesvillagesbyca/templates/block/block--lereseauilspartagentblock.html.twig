@@ -1,0 +1,10 @@
+{%
+  set classes = [
+    'block-shadowed-container',
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+</div>

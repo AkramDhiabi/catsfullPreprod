@@ -1,0 +1,31 @@
+uuid: 8a1d4088-9164-4398-8d2b-b196d3d8c9e6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:accroche_reseau_text:896abf44-57a9-42e6-8413-ad8f4d1bf34c'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: lereseauaccrochetexte
+theme: lesvillagesbyca
+region: jumbotron
+weight: -22
+provider: null
+plugin: 'block_content:896abf44-57a9-42e6-8413-ad8f4d1bf34c'
+settings:
+  id: 'block_content:896abf44-57a9-42e6-8413-ad8f4d1bf34c'
+  label: le-reseau-accroche-texte
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/1
+    negate: false
+    context_mapping: {  }

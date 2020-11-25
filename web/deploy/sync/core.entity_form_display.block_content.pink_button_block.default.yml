@@ -1,0 +1,38 @@
+uuid: b4b73d65-4310-469b-9380-7730b97ded5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pink_button_block
+    - field.field.block_content.pink_button_block.field_button_title
+  module:
+    - link
+id: block_content.pink_button_block.default
+targetEntityType: block_content
+bundle: pink_button_block
+mode: default
+content:
+  field_button_title:
+    weight: 27
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

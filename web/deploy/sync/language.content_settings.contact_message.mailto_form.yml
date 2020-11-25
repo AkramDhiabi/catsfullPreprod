@@ -1,0 +1,11 @@
+uuid: 1af8b2ce-1456-4a3a-af6f-6d9b28ea81fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.mailto_form
+id: contact_message.mailto_form
+target_entity_type_id: contact_message
+target_bundle: mailto_form
+default_langcode: site_default
+language_alterable: false

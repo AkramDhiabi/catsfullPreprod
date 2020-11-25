@@ -1,0 +1,20 @@
+{#
+/**
+ * @file
+ * Theme override for a views exposed form.
+ *
+ * Available variables:
+ * - form: A render element representing the form.
+ *
+ * @see template_preprocess_views_exposed_form()
+ */
+#}
+
+<form style="text-align:center" {{ attributes }}>
+	<div>
+		<div class="input-recherche-village">
+			{{ form.field_village_vocabulaire_target_id }}
+	    </div>
+	    <input data-drupal-selector="edit-submit-recherche-villages" type="submit" type="button" value="OK" id="edit-submit-startups-listing" class="validation-button ca-fonts-montserrat-medium" value>
+	</div>
+</form>

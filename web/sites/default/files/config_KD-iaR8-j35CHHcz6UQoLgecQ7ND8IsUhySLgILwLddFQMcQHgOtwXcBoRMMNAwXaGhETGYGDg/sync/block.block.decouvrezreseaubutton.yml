@@ -1,0 +1,31 @@
+uuid: 918aa886-a993-40e7-b677-6fffa00df509
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pink_button_block:082b5953-9e68-46b3-84f4-13663d0c5713'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: decouvrezreseaubutton
+theme: lesvillagesbyca
+region: jumbotron
+weight: -17
+provider: null
+plugin: 'block_content:082b5953-9e68-46b3-84f4-13663d0c5713'
+settings:
+  id: 'block_content:082b5953-9e68-46b3-84f4-13663d0c5713'
+  label: decouvrez-reseau-button
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

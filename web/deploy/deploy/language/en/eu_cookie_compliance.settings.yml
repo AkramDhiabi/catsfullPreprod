@@ -1,0 +1,6 @@
+popup_agreed:
+  value: '<h2>Thank you for accepting cookies. You can now hide this banner.</p>'
+popup_info:
+  value: '<p>This website uses cookies. We use them to personalise content and ads, to provide social media features and analyse our traffic.</p>'
+withdraw_message:
+  value: '<p>We use cookie on this website to enhance your user experience.</p>'

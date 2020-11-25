@@ -1,0 +1,23 @@
+uuid: ab308db9-9277-481c-bac9-a5cdc2c1b67c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_village_startup_counter
+    - node.type.village
+id: node.village.field_village_startup_counter
+field_name: field_village_startup_counter
+entity_type: node
+bundle: village
+label: village-startup-counter
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

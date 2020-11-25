@@ -1,0 +1,43 @@
+uuid: 281774ef-afc8-4ab5-ae8f-ce7f43c6682d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.start_up.body
+    - field.field.node.start_up.field_startup_thematique
+    - field.field.node.start_up.field_thematiques_start_up
+    - field.field.node.start_up.field_village_hote
+    - field.field.node.start_up.field_village_logo
+    - field.field.node.start_up.field_village_taxonomie
+    - field.field.node.start_up.field_village_url
+    - node.type.start_up
+  module:
+    - text
+    - user
+id: node.start_up.teaser
+targetEntityType: node
+bundle: start_up
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_startup_thematique: true
+  field_thematiques_start_up: true
+  field_village_hote: true
+  field_village_logo: true
+  field_village_taxonomie: true
+  field_village_url: true
+  langcode: true

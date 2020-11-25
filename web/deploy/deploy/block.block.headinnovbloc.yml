@@ -1,0 +1,26 @@
+uuid: a8ba5e26-5875-435f-b17c-f18c5ff10349
+langcode: fr
+status: true
+dependencies:
+  module:
+    - cats_levillagebyca
+    - system
+  theme:
+    - lesvillagesbyca
+id: headinnovbloc
+theme: lesvillagesbyca
+region: content
+weight: -2
+provider: null
+plugin: innov_block
+settings:
+  id: innov_block
+  label: 'Head innov bloc'
+  provider: cats_levillagebyca
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/1
+    negate: false
+    context_mapping: {  }

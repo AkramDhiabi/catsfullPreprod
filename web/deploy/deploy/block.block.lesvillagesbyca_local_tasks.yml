@@ -1,0 +1,22 @@
+uuid: 564b4292-b573-4805-9b15-6961950bcc98
+langcode: en
+status: false
+dependencies:
+  theme:
+    - lesvillagesbyca
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: lesvillagesbyca_local_tasks
+theme: lesvillagesbyca
+region: content
+weight: 4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

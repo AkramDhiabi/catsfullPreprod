@@ -1,0 +1,25 @@
+uuid: d4e16401-df0a-42ab-aa2b-62e0144fd68d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:031b0681-dd65-4ba5-bb52-eab294d605e8'
+  module:
+    - block_content
+  theme:
+    - lesvillagesbyca
+id: sociallinksheader
+theme: lesvillagesbyca
+region: secondarymenu
+weight: 0
+provider: null
+plugin: 'block_content:031b0681-dd65-4ba5-bb52-eab294d605e8'
+settings:
+  id: 'block_content:031b0681-dd65-4ba5-bb52-eab294d605e8'
+  label: social-links-header
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

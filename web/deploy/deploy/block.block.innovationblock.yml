@@ -1,0 +1,31 @@
+uuid: 1259625b-ac9e-47ae-a0fb-035bee74a175
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:92ca5ff2-6bed-4be0-b651-8da0f0c5a3ab'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: innovationblock
+theme: lesvillagesbyca
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:92ca5ff2-6bed-4be0-b651-8da0f0c5a3ab'
+settings:
+  id: 'block_content:92ca5ff2-6bed-4be0-b651-8da0f0c5a3ab'
+  label: Innovation-block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/1
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,49 @@
+uuid: 092a69ee-e99d-4d28-8666-7b83ae25507c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.container_block
+    - field.field.block_content.container_block.field_plugged_block_1
+    - field.field.block_content.container_block.field_plugged_block_2
+  module:
+    - block_field
+id: block_content.container_block.default
+targetEntityType: block_content
+bundle: container_block
+mode: default
+content:
+  field_plugged_block_1:
+    weight: 26
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+  field_plugged_block_2:
+    weight: 27
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

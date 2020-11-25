@@ -1,0 +1,31 @@
+uuid: 793f9feb-a0c6-4dec-b9d9-e9832f39d199
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:accroche_partenaires_text:53cd14a7-2736-4270-baa4-91b9765db770'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: partenairesaccrochetext
+theme: lesvillagesbyca
+region: jumbotron
+weight: -19
+provider: null
+plugin: 'block_content:53cd14a7-2736-4270-baa4-91b9765db770'
+settings:
+  id: 'block_content:53cd14a7-2736-4270-baa4-91b9765db770'
+  label: partenaires-accroche-text
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/3
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,8 @@
+uuid: 6dad6e5f-510d-40f9-a429-030bceeaba38
+langcode: en
+status: true
+dependencies: {  }
+id: misc_content_block
+label: 'Misc. Content Block'
+revision: 0
+description: 'diversified source content  text /img (will be used to the front page°'

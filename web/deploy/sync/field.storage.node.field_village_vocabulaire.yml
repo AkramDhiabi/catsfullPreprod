@@ -1,0 +1,20 @@
+uuid: 8b532fcc-e6aa-4ec7-ad49-c4cf9feaa5cf
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_village_vocabulaire
+field_name: field_village_vocabulaire
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

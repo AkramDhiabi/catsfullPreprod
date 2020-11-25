@@ -1,0 +1,22 @@
+uuid: 71449a36-3ab1-4791-92ef-68eb44c07496
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_block
+    - field.storage.block_content.field_extern_separator
+  module:
+    - block_field
+id: block_content.content_block.field_extern_separator
+field_name: field_extern_separator
+entity_type: block_content
+bundle: content_block
+label: 'Extern Separator'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

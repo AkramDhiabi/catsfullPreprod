@@ -1,0 +1,8 @@
+uuid: 940093b6-3913-45ef-98f6-d539e515cf23
+langcode: en
+status: true
+dependencies: {  }
+id: accroche_text
+label: 'Accroche Text'
+revision: 0
+description: ''

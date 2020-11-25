@@ -1,0 +1,14 @@
+uuid: dac77010-5e87-422e-a2e9-50801d6c855f
+langcode: en
+status: true
+dependencies: {  }
+name: village_caroussel
+label: village-caroussel
+effects:
+  cabf22ab-7dcd-43cd-9c36-61dd6dab493f:
+    uuid: cabf22ab-7dcd-43cd-9c36-61dd6dab493f
+    id: image_resize
+    weight: 1
+    data:
+      width: 223
+      height: 400

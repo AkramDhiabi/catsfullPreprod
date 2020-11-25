@@ -1,0 +1,68 @@
+<?php
+
+use Drupal\node\Entity\Node;
+use Drupal\sync_bdd\Sync_bdd;
+
+
+function sync_bdd_cronapi() {
+  $items = array();
+  $items['sync_bdd_cron'] = array();
+  return $items;
+}
+function sync_bdd_cron() {
+ /* $links = getUrl("21402");
+ foreach ($links as $link){
+   $value = $link['uri'];*/
+    sync_insert_startup('https://main.lesvillagesbyca.amaris.ovh/get_data_startup');
+   sync_insert_partner('https://main.lesvillagesbyca.amaris.ovh/get_data_partenaire');
+   //delete_data_bdd($value.'get_deleted_partenaire',$type ='partenaire');
+  // delete_data_bdd($value.'get_deleted_startup',$type ='start_up');
+// }
+
+}
+function sync_insert_startup($url_insert){
+  $type="start_up";
+  insert_bdd($url_insert,$type);
+}
+
+function sync_insert_partner($url_insert){
+  $type = "partenaire";
+  insert_bdd($url_insert,$type);
+}
+function insert_bdd($url,$type){
+  $request = new Sync_bdd;
+  $result = $request->get_data($url);
+  $data_decode = json_decode($result['data']);
+  foreach ($data_decode as $value):
+    if ($type == "start_up" && $value->field_village_taxonomie == 485) {
+      $request->insert_data($url,$value);
+    }
+    if ($type == "partenaire") {
+    $exist =0;
+    $list = $value->field_partenaire_village_taxonom;
+    $data = explode(',', $list);  
+        for ($i=0; $i < count($data) ; $i++) { 
+          if ($data[$i] == '485') {
+            $exist = '1';
+          }
+        }
+        if($exist == '1'){
+      $request->insert_data_P($url,$value);
+    }
+  }
+  endforeach;
+}
+
+function delete_data_bdd($url,$type){
+  $request = new Sync_bdd;
+  $result = $request->get_data($url);
+  $data_decode = json_decode($result['data']);
+  foreach ($data_decode as $value):
+    $request->delete_data($value,$type);
+  endforeach;
+}
+
+ function getUrl($nid){
+  $node = Node::load($nid);
+  return $node->get('field_url')->getValue();
+}

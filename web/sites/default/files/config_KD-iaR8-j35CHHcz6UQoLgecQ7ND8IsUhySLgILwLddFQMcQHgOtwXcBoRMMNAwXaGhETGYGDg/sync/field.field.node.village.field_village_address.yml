@@ -1,0 +1,19 @@
+uuid: a9cfbf8b-a6e0-48f0-8dfe-b487086d0137
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_village_address
+    - node.type.village
+id: node.village.field_village_address
+field_name: field_village_address
+entity_type: node
+bundle: village
+label: Village-Address
+description: 'Enter a true address that Google Maps can recognize.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

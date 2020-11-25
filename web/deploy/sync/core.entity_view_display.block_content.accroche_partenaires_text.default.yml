@@ -1,0 +1,23 @@
+uuid: 4c6a38e7-6d60-4659-8870-96c1d75adf46
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_partenaires_text
+    - field.field.block_content.accroche_partenaires_text.field_accroche_partenaire_text_c
+  module:
+    - text
+id: block_content.accroche_partenaires_text.default
+targetEntityType: block_content
+bundle: accroche_partenaires_text
+mode: default
+content:
+  field_accroche_partenaire_text_c:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true

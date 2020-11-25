@@ -1,0 +1,20 @@
+uuid: 2da1583d-6233-4f60-8e44-6963e6fd12ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.thematiques_partenaires
+  module:
+    - path
+id: taxonomy_term.thematiques_partenaires.path
+field_name: path
+entity_type: taxonomy_term
+bundle: thematiques_partenaires
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

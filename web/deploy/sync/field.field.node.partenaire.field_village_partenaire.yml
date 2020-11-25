@@ -1,0 +1,29 @@
+uuid: c1abea49-1f3f-49b6-ac2c-fbca703deb1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_village_partenaire
+    - node.type.partenaire
+    - node.type.village
+id: node.partenaire.field_village_partenaire
+field_name: field_village_partenaire
+entity_type: node
+bundle: partenaire
+label: Village-Partenaire
+description: "Référent des nœuds de type village. Indispensable pour la page Réseau.\r\nConseil : mettre la même référence que \"Partenaire-village taxonomie\"."
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      village: village
+    sort:
+      field: title
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: aeffcaa2-ae87-4b55-b280-1ecafaf8cbcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_text
+    - field.storage.block_content.field_accroche_text_content
+  module:
+    - text
+id: block_content.accroche_text.field_accroche_text_content
+field_name: field_accroche_text_content
+entity_type: block_content
+bundle: accroche_text
+label: 'accroche Text content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

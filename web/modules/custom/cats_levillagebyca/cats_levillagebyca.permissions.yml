@@ -1,0 +1,20 @@
+access theme admin:
+  title: 'Administrer le thème du site'
+  description: 'Gère l''apparance du thème du site'
+  restrict access: TRUE
+access social page admin:
+  title: 'Administrer les réseaux sociaux du site'
+  description: 'Gère les métadonnées des réseaux sciaux du site'
+  restrict access: TRUE
+access supart page admin:
+  title: 'Administrer les entêtes des pages Start-ups et Partenaires du site'
+  description: 'Gère les entêtes des pages Start-ups et Partenaires du site'
+  restrict access: TRUE
+access chicle admin:
+  title: 'Administrer les chiffres clés'
+  description: 'Gère les chiffres clés du site'
+  restrict access: TRUE
+access innov admin:
+  title: 'Administrer le bloc innovation'
+  description: 'Gère le texte du bloc innovation du site'
+  restrict access: TRUE

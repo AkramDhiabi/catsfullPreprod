@@ -1,0 +1,17 @@
+uuid: 33bb0ea6-ae74-4e3e-9649-aa7e499f3797
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: START-UP
+type: start_up
+description: 'Dedicated type for START-UP content'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

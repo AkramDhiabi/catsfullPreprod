@@ -1,0 +1,8 @@
+uuid: 4696845d-b46c-42e4-9e29-cc464dd51292
+langcode: en
+status: true
+dependencies: {  }
+name: Villages
+vid: villages
+description: 'Taxonomie de l''entité village'
+weight: 0

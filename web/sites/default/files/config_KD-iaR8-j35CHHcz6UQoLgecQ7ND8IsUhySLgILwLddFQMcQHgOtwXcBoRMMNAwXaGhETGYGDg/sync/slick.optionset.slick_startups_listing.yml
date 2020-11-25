@@ -1,0 +1,105 @@
+uuid: cb5d598f-b5b2-4ddb-bb63-233f9cdc7946
+langcode: en
+status: true
+dependencies: {  }
+id: slick_startups_listing
+name: slick_startups_listing
+label: slick_startups_listing
+weight: 0
+group: ''
+skin: ''
+breakpoints: 7
+optimized: true
+options:
+  options__active_tab: edit-options-responsives
+  settings:
+    mobileFirst: true
+    accessibility: false
+    centerMode: true
+    centerPadding: 30px
+    dots: true
+    infinite: false
+    lazyLoad: ondemand
+    randomize: true
+    slidesToShow: 1
+    swipe: false
+    useCSS: false
+    easing: ''
+  responsives:
+    responsive:
+      -
+        breakpoint: 0
+        unslick: false
+        settings:
+          draggable: false
+          infinite: false
+          slidesPerRow: 4
+          slidesToShow: 4
+          slidesToScroll: 0
+          swipe: false
+          touchMove: false
+          cssEase: ''
+          variableWidth: true
+          waitForAnimate: false
+      -
+        breakpoint: 769
+        unslick: false
+        settings:
+          arrows: false
+          centerMode: true
+          draggable: false
+          infinite: false
+          slidesPerRow: 3
+          swipe: false
+          touchMove: false
+          waitForAnimate: false
+      -
+        breakpoint: null
+        unslick: false
+        settings:
+          arrows: false
+          draggable: false
+          infinite: false
+          swipe: false
+          touchMove: false
+          waitForAnimate: false
+      -
+        breakpoint: null
+        unslick: false
+        settings:
+          arrows: false
+          draggable: false
+          infinite: false
+          swipe: false
+          touchMove: false
+          waitForAnimate: false
+      -
+        breakpoint: null
+        unslick: false
+        settings:
+          arrows: false
+          draggable: false
+          infinite: false
+          swipe: false
+          touchMove: false
+          waitForAnimate: false
+      -
+        breakpoint: null
+        unslick: false
+        settings:
+          arrows: false
+          draggable: false
+          infinite: false
+          swipe: false
+          touchMove: false
+          waitForAnimate: false
+      -
+        breakpoint: null
+        unslick: false
+        settings:
+          arrows: false
+          draggable: false
+          infinite: false
+          swipe: false
+          touchMove: false
+          waitForAnimate: false

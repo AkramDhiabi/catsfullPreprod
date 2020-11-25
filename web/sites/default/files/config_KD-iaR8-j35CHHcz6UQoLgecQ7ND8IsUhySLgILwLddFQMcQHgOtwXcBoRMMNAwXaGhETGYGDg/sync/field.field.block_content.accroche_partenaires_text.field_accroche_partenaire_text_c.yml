@@ -1,0 +1,21 @@
+uuid: 1276b7c9-7c4e-4b02-aa71-ee868f4a76b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_partenaires_text
+    - field.storage.block_content.field_accroche_partenaire_text_c
+  module:
+    - text
+id: block_content.accroche_partenaires_text.field_accroche_partenaire_text_c
+field_name: field_accroche_partenaire_text_c
+entity_type: block_content
+bundle: accroche_partenaires_text
+label: 'accroche Partenaire Text content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

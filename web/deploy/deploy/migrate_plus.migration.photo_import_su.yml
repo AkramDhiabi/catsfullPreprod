@@ -1,0 +1,59 @@
+uuid: 3ff0faad-2161-4970-a471-80ab1c2288d5
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: uuA8mdwOZRmpUQ4OvCosQuBHvVG6lqoO-wn8Uh5SpxI
+id: photo_import_su
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - CSV
+migration_group: start_up
+label: 'Import des logos'
+source:
+  plugin: csv
+  path: 'public://import/starts_up.csv'
+  delimiter: ','
+  header_row_count: 1
+  keys:
+    - id
+  fields:
+    id: 'Unique Id'
+    'URL du logo': 'URL de limage'
+  constants:
+    file_destination: 'public://startsup'
+process:
+  id: id
+  destination_filename:
+    -
+      plugin: callback
+      callable: basename
+      source: 'URL du logo'
+    -
+      plugin: skip_on_empty
+      method: row
+  destination_full_path:
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - constants/file_destination
+        - '@destination_filename'
+    -
+      plugin: urlencode
+  source_full_path:
+    -
+      plugin: get
+      source: 'URL du logo'
+    -
+      plugin: urlencode
+  uri:
+    plugin: file_copy
+    source:
+      - '@source_full_path'
+      - '@destination_full_path'
+destination:
+  plugin: 'entity:file'
+migration_dependencies: null

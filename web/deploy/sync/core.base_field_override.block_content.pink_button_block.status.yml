@@ -1,0 +1,22 @@
+uuid: 7009b400-210e-4f64-8712-89b6843ea388
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pink_button_block
+id: block_content.pink_button_block.status
+field_name: status
+entity_type: block_content
+bundle: pink_button_block
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

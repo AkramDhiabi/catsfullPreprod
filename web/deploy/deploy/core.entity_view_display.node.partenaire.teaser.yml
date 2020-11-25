@@ -1,0 +1,43 @@
+uuid: 5fb2c936-d71a-4105-be38-dd3dbb683d99
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.partenaire.body
+    - field.field.node.partenaire.field_image
+    - field.field.node.partenaire.field_partenaire_thematique
+    - field.field.node.partenaire.field_partenaire_url
+    - field.field.node.partenaire.field_partenaire_village_taxonom
+    - field.field.node.partenaire.field_thematiques_partenaire
+    - field.field.node.partenaire.field_village_partenaire
+    - node.type.partenaire
+  module:
+    - text
+    - user
+id: node.partenaire.teaser
+targetEntityType: node
+bundle: partenaire
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true
+  field_partenaire_thematique: true
+  field_partenaire_url: true
+  field_partenaire_village_taxonom: true
+  field_thematiques_partenaire: true
+  field_village_partenaire: true
+  langcode: true

@@ -1,0 +1,14 @@
+uuid: 5f90c36d-0289-4ff5-80df-45e5517a8449
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.maire_village
+  module:
+    - user
+id: user_remove_role_action.maire_village
+label: 'Remove the maire-village role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: maire_village

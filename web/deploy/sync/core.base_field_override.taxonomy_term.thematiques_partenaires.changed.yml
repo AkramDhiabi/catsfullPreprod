@@ -1,0 +1,18 @@
+uuid: d9b5935d-0151-4158-8e12-d456efd23962
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.thematiques_partenaires
+id: taxonomy_term.thematiques_partenaires.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: thematiques_partenaires
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

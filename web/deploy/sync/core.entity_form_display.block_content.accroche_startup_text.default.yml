@@ -1,0 +1,38 @@
+uuid: b4f8ecf6-5901-4ae9-af4f-0db9b4c35779
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_startup_text
+    - field.field.block_content.accroche_startup_text.field_accroche_startup_text_cont
+  module:
+    - text
+id: block_content.accroche_startup_text.default
+targetEntityType: block_content
+bundle: accroche_startup_text
+mode: default
+content:
+  field_accroche_startup_text_cont:
+    weight: 26
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

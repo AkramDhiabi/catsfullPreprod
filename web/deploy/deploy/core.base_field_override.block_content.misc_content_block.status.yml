@@ -1,0 +1,22 @@
+uuid: f868bd12-5798-49ed-bffb-92e39a648bf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.misc_content_block
+id: block_content.misc_content_block.status
+field_name: status
+entity_type: block_content
+bundle: misc_content_block
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

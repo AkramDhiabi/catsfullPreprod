@@ -1,0 +1,8 @@
+uuid: 3976e490-5e5e-47b0-9c84-74ea8ce7f743
+langcode: en
+status: true
+dependencies: {  }
+id: accroche_reseau_text
+label: 'Accroche Reseau Text'
+revision: 0
+description: ''

@@ -1,0 +1,18 @@
+uuid: 5448bf62-d888-45b0-bf8a-1a251776fb27
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pink_button_block
+id: block_content.pink_button_block.changed
+field_name: changed
+entity_type: block_content
+bundle: pink_button_block
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,35 @@
+startups:
+  chiffresu: '645'
+  textsu: Start-ups
+partenaires:
+  chiffrepart: '553'
+  textpart: Partenaires
+villages:
+  chiffrevi: '31'
+  textvi: 'Villages ouverts'
+  chiffrefo: '400'
+  textfo: 'Millions d''€ levée de fonds'
+entete:
+  uptitle: 'CHIFFRES CLÉS'
+  downcoloredtitle: ACCÉLÉRATEUR
+  downtitle: 'DE BUSINESS'
+fonds:
+  chiffrefo: '400'
+  textfo: 'Millions d''€ levée de fonds'
+en:
+  startups:
+    chiffresu: '645'
+    textsu: Start-ups
+  partenaires:
+    chiffrepart: '553'
+    textpart: Partners
+  villages:
+    chiffrevi: '33'
+    textvi: 'Villages Opened'
+  fonds:
+    chiffrefo: '400'
+    textfo: 'Millions € in Fundraising'
+  entete:
+    uptitle: 'KEY FIGURES'
+    downcoloredtitle: BUSINESS
+    downtitle: ACCELERATOR

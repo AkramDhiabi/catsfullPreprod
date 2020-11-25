@@ -1,0 +1,39 @@
+{#
+/**
+ * @file views-bootstrap-cards.html.twig
+ * Default simple view template to display Bootstrap Cards.
+ *
+ *
+ * - rows: Contains a nested array of rows. Each row contains an array of
+ *   columns.
+ *
+ * @ingroup views_templates
+ */
+#}
+
+<div class="card-group row">
+  {% for key, row in rows -%}
+  <div class="vignette col-md-3 col-sm-3">
+    {# Show image #}
+    {% if row.image %}
+    <div class="vignette-logo-container">
+      <div class="vignette-logo col-md-12">{{ row.image }}</div>
+    </div>
+    {% endif %}
+    {# Show title #}
+    {% if row.title %}
+      <div class="vignette-title ca-fonts-montserrat"><b>{{ row.title }}</b></div>
+    {% endif %} 
+    <div class="ca-blocks-intern-separator"></div>
+    {# Show content #}
+    {% if row.content %}
+      <div class="vignette-description">
+        {{ row.content }}
+      </div>
+    {% endif %} 
+    <div class="vignette-button">
+       <a class="ca-fonts-montserrat-medium" href="#" role="button">ALLER SUR LE SITE</a>
+    </div>
+  </div>
+  {%- endfor %}
+</div>

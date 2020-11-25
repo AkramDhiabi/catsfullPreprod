@@ -1,0 +1,22 @@
+uuid: 28a3d513-e2e7-475d-9f7c-1dbd20fdd2aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_startup_text
+id: block_content.accroche_startup_text.status
+field_name: status
+entity_type: block_content
+bundle: accroche_startup_text
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

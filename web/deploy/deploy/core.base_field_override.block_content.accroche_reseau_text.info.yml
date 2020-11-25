@@ -1,0 +1,18 @@
+uuid: 2ac6981c-be1a-472d-a5bd-1d8fa273f6ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_reseau_text
+id: block_content.accroche_reseau_text.info
+field_name: info
+entity_type: block_content
+bundle: accroche_reseau_text
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

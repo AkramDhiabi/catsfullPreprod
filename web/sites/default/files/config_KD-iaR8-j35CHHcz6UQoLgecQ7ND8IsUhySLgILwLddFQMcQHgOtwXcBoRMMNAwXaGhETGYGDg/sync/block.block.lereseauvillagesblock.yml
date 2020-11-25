@@ -1,0 +1,31 @@
+uuid: 0458f9f4-6b85-48ff-ba00-26edc26fa934
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:10e9d6e1-a70b-4033-bef4-08ddbd7bc1cf'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: lereseauvillagesblock
+theme: lesvillagesbyca
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:10e9d6e1-a70b-4033-bef4-08ddbd7bc1cf'
+settings:
+  id: 'block_content:10e9d6e1-a70b-4033-bef4-08ddbd7bc1cf'
+  label: le-reseau-villages-block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /le-reseau
+    negate: false
+    context_mapping: {  }

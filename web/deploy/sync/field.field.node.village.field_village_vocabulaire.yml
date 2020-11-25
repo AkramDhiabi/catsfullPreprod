@@ -1,0 +1,29 @@
+uuid: 803aa6c4-b900-4271-b290-d4de5dc979f1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_village_vocabulaire
+    - node.type.village
+    - taxonomy.vocabulary.villages
+id: node.village.field_village_vocabulaire
+field_name: field_village_vocabulaire
+entity_type: node
+bundle: village
+label: 'Village Vocabulaire'
+description: "Veuillez sélectionner le village correspondant à celui que vous voulez créer. Dans le cas où il n'existe pas dans cette liste, allez créer un nouveau terme dans la taxonomie 'Villages' (Structure > Taxonomie > Villages > Ajouter un terme).\r\n"
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      villages: villages
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

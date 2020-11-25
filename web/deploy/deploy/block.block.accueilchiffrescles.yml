@@ -1,0 +1,31 @@
+uuid: a5918833-8a9e-435a-a48e-d104616566ac
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a24c81a6-b44f-4b52-bb16-060ce59ed0d9'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: accueilchiffrescles
+theme: lesvillagesbyca
+region: content
+weight: -21
+provider: null
+plugin: 'block_content:a24c81a6-b44f-4b52-bb16-060ce59ed0d9'
+settings:
+  id: 'block_content:a24c81a6-b44f-4b52-bb16-060ce59ed0d9'
+  label: accueil-chiffres-cles
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

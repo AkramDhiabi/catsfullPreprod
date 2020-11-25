@@ -1,0 +1,7 @@
+{% set image = {
+  '#theme':      'image_style',
+  '#style_name': node.field_gallery_image_styles.value,
+  '#uri':        node.field_gallery_image[0].entity.uri.value,
+  '#alt':        node.field_gallery_image[0].alt,
+} %}
+{{ image }}

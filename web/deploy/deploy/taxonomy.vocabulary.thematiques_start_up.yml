@@ -1,0 +1,8 @@
+uuid: 3269b768-066e-4285-851a-99dc6fab61ec
+langcode: en
+status: true
+dependencies: {  }
+name: 'Thématiques Start-up'
+vid: thematiques_start_up
+description: 'Secteurs d''activité des Starts-up'
+weight: 0

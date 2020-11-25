@@ -1,0 +1,25 @@
+cats_levillagebyca.themes_admin:
+  title: 'Thème LeVillageByCA'
+  parent: cats_levillagebyca.admin_config_admincats
+  route_name: cats_levillagebyca.theme_form
+cats_levillagebyca.admin_config_admincats:
+  route_name: cats_levillagebyca.admin_config_admincats
+  parent: system.admin_config
+  title: 'Administration des formulaires CATS'
+  weight: -20
+cats_levillagebyca.formsocialnetwork_admin:
+  title: 'Réseaux Sociaux'
+  parent: cats_levillagebyca.admin_config_admincats
+  route_name: cats_levillagebyca.formsocialnetwork_admin
+cats_levillagebyca.formheadsupart_admin:
+  title: 'Entêtes des pages Start-ups et Partenaires'
+  parent: cats_levillagebyca.admin_config_admincats
+  route_name: cats_levillagebyca.formsupart_admin
+cats_levillagebyca.formchiffrecle_admin:
+  title: 'Chiffres clés'
+  parent: cats_levillagebyca.admin_config_admincats
+  route_name: cats_levillagebyca.formchiffrescles_admin
+cats_levillagebyca.forminnov_admin:
+  title: 'Innovation'
+  parent: cats_levillagebyca.admin_config_admincats
+  route_name: cats_levillagebyca.forminnov_admin

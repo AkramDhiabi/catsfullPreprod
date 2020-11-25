@@ -1,0 +1,20 @@
+uuid: fd92bf13-c37f-406e-8a0d-b6a800f86977
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_partenaire_village_taxonom
+field_name: field_partenaire_village_taxonom
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

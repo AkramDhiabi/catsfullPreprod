@@ -1,0 +1,13 @@
+uuid: 6b79305c-c520-447f-98be-9146918d02d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.images_content
+    - core.entity_view_mode.block_content.full
+id: block_content.images_content.full
+targetEntityType: block_content
+bundle: images_content
+mode: full
+content: {  }
+hidden: {  }

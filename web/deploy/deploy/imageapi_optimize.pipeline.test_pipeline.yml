@@ -1,0 +1,7 @@
+uuid: 95a5addd-56e0-4622-b9de-11cf9bee5bb7
+langcode: fr
+status: true
+dependencies: {  }
+name: test_pipeline
+label: 'test pipeline test'
+processors: {  }

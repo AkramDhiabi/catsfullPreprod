@@ -1,0 +1,20 @@
+uuid: 8d5dcf50-e671-4742-a989-7ab1cc85fe81
+langcode: fr
+status: true
+dependencies:
+  module:
+    - cats_levillagebyca
+  theme:
+    - lesvillagesbyca
+id: socialnetworkbloc
+theme: lesvillagesbyca
+region: secondarymenu
+weight: -23
+provider: null
+plugin: reseaux-sociaux-link_block
+settings:
+  id: reseaux-sociaux-link_block
+  label: 'Social Network bloc'
+  provider: cats_levillagebyca
+  label_display: '0'
+visibility: {  }

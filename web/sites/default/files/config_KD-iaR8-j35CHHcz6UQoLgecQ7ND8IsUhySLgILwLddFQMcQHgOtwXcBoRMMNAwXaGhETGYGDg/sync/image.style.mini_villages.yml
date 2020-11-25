@@ -1,0 +1,14 @@
+uuid: 67ce7bb1-1e76-4230-ad6a-51c575603a49
+langcode: en
+status: true
+dependencies: {  }
+name: mini_villages
+label: mini-villages
+effects:
+  3034ecce-9d86-49f4-a946-e5b5c72630ce:
+    uuid: 3034ecce-9d86-49f4-a946-e5b5c72630ce
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50

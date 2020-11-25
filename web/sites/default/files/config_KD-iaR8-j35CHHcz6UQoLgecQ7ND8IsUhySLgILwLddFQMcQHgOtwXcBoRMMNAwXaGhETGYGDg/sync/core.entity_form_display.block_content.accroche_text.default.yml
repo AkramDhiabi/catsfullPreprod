@@ -1,0 +1,31 @@
+uuid: e667a4c1-2b30-4041-aeb6-77e20fd72c7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_text
+    - field.field.block_content.accroche_text.field_accroche_text_content
+  module:
+    - text
+id: block_content.accroche_text.default
+targetEntityType: block_content
+bundle: accroche_text
+mode: default
+content:
+  field_accroche_text_content:
+    weight: 26
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

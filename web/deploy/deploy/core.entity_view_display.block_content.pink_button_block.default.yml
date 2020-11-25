@@ -1,0 +1,28 @@
+uuid: b0bb7883-d957-442d-9bb0-841bc434b018
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pink_button_block
+    - field.field.block_content.pink_button_block.field_button_title
+  module:
+    - link
+id: block_content.pink_button_block.default
+targetEntityType: block_content
+bundle: pink_button_block
+mode: default
+content:
+  field_button_title:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  langcode: true

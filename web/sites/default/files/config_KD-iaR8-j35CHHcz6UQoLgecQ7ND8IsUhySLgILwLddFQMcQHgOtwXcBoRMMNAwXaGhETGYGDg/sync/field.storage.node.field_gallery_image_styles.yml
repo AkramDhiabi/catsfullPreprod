@@ -1,0 +1,33 @@
+uuid: b7cad20b-c7f7-4c34-a84b-68157a37534c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_gallery_image_styles
+field_name: field_gallery_image_styles
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: default
+      label: Default
+    -
+      value: tall
+      label: Tall
+    -
+      value: wide
+      label: Wide
+    -
+      value: big
+      label: Big
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

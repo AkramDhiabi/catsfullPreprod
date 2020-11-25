@@ -1,0 +1,22 @@
+uuid: 5a9b7d00-9385-4032-bea9-a4ffca8adf7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.misc_content_text_video
+    - field.storage.block_content.field_button
+  module:
+    - block_field
+id: block_content.misc_content_text_video.field_button
+field_name: field_button
+entity_type: block_content
+bundle: misc_content_text_video
+label: misc-content-text-video-button
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

@@ -1,0 +1,20 @@
+uuid: 26027d2f-e436-4c3a-95bb-0d0d47004a33
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.thematiques_start_up
+  module:
+    - path
+id: taxonomy_term.thematiques_start_up.path
+field_name: path
+entity_type: taxonomy_term
+bundle: thematiques_start_up
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

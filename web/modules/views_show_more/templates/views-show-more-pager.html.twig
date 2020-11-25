@@ -1,0 +1,17 @@
+{#
+/**
+ * @file
+ * The views show more pager template.
+ */
+#}
+
+{% if item.text %}
+<nav role="navigation" aria-labelledby="pagination-heading">
+    <h4 class="visually-hidden">Pagination</h4>
+      <ul class="js-pager__items pager__items pager-show-more">
+        <li class="pager__item button-secondary">
+                      <a class="ca-fonts-montserrat-medium" href="/startups?q=node/2&amp;field_startup_thematique_value=All&amp;title=&amp;page=1" title="Go to next page" rel="next">VOIR PLUS...</a>
+                  </li>
+      </ul>
+  </nav>
+{% endif %}

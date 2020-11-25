@@ -1,0 +1,8 @@
+uuid: a689708b-3a9a-4202-b729-67b3343bc7d5
+langcode: en
+status: true
+dependencies: {  }
+id: content_block
+label: 'Content Block'
+revision: 0
+description: 'Formatter/mutualiser la création du contenu texte ( title, subtitle et text)'

@@ -1,0 +1,8 @@
+uuid: d119243e-e057-4ae4-86e1-92a460305a82
+langcode: en
+status: true
+dependencies: {  }
+id: pink_button_block
+label: pink-button-block
+revision: 0
+description: 'pink button block'

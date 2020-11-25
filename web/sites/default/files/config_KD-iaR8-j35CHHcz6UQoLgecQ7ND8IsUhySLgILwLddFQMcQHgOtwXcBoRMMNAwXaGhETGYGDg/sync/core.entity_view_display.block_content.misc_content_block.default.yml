@@ -1,0 +1,33 @@
+uuid: 39838fd7-5897-4ae4-8da9-a2b4eafb8f02
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.misc_content_block
+    - field.field.block_content.misc_content_block.field_mic_content_image
+    - field.field.block_content.misc_content_block.field_misc_content_text
+  module:
+    - image
+    - text
+id: block_content.misc_content_block.default
+targetEntityType: block_content
+bundle: misc_content_block
+mode: default
+content:
+  field_mic_content_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_misc_content_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

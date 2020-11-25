@@ -1,0 +1,30 @@
+uuid: 632b742c-d384-4ae6-a26b-9686299b6081
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.last_startups
+  module:
+    - system
+    - views
+  theme:
+    - lesvillagesbyca
+id: views_block__last_startups_block_1
+theme: lesvillagesbyca
+region: content
+weight: -15
+provider: null
+plugin: 'views_block:last_startups-block_1'
+settings:
+  id: 'views_block:last_startups-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

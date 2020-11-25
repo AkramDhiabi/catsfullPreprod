@@ -1,0 +1,15 @@
+uuid: f2ff0eb2-c11b-456f-bdc5-4f19e36cdae0
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - custom_migrate
+_core:
+  default_config_hash: d9xhtFzhnc5S2Y1vJ2dynepGcfuwcn-tGMUxLx2-Kww
+id: start_up
+label: 'Custom migrations'
+description: 'Custom data migrations.'
+source_type: 'CSV files'
+module: null
+shared_configuration: null

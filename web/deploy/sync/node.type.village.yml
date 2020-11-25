@@ -1,0 +1,17 @@
+uuid: 15011c1b-c40a-4be3-803a-b27457c860df
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: VILLAGE
+type: village
+description: 'Dedicated type for VILLAGE content'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

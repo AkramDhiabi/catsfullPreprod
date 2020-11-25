@@ -1,0 +1,11 @@
+{% extends "field.html.twig" %}
+
+{%
+  set classes = [
+    'col-xs-6',
+    'col-md-6',
+    'col-lg-6',
+    'left-gallery-positionning'
+  ]
+%}
+{% set attributes = attributes.addClass(classes) %}

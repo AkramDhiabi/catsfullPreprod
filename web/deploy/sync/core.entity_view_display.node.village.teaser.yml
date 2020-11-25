@@ -1,0 +1,39 @@
+uuid: a49eab7d-8ba2-4a7a-916e-8fc76ddc9773
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.village.body
+    - field.field.node.village.field_village_fiche_image
+    - field.field.node.village.field_village_geolocation
+    - field.field.node.village.field_village_image
+    - field.field.node.village.field_village_url
+    - node.type.village
+  module:
+    - text
+    - user
+id: node.village.teaser
+targetEntityType: node
+bundle: village
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_village_fiche_image: true
+  field_village_geolocation: true
+  field_village_image: true
+  field_village_url: true
+  langcode: true

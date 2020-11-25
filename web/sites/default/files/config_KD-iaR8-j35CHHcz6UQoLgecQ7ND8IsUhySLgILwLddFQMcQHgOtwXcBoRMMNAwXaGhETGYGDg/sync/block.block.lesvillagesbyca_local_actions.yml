@@ -1,0 +1,20 @@
+uuid: afdab359-9060-43a8-aad9-64a129e3fd44
+langcode: en
+status: false
+dependencies:
+  theme:
+    - lesvillagesbyca
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: lesvillagesbyca_local_actions
+theme: lesvillagesbyca
+region: content
+weight: 7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

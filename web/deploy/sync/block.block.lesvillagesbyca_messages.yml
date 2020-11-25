@@ -1,0 +1,22 @@
+uuid: a07d6be5-e75d-4c1a-ab19-071ffc6d0016
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - lesvillagesbyca
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: lesvillagesbyca_messages
+theme: lesvillagesbyca
+region: primarymenu
+weight: -22
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

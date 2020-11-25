@@ -1,0 +1,18 @@
+uuid: f6a966c9-9021-4fcf-ab7b-7a4fc69afb71
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.geolocation_demo_taxonomy
+id: taxonomy_term.geolocation_demo_taxonomy.name
+field_name: name
+entity_type: taxonomy_term
+bundle: geolocation_demo_taxonomy
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

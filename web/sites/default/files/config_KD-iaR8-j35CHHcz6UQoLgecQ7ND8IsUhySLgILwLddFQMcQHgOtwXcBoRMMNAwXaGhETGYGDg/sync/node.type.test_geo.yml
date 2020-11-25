@@ -1,0 +1,17 @@
+uuid: 56897a51-c9dc-498a-8810-3afff876bfeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Test_Geo
+type: test_geo
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

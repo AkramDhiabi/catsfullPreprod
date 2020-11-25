@@ -1,0 +1,31 @@
+uuid: 8998b07b-c5db-4238-81ea-aebbe94a62fb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:f4aa1a01-e4f8-47c7-8975-52989f1ce888'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: accueilnospartenairesblock
+theme: lesvillagesbyca
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:f4aa1a01-e4f8-47c7-8975-52989f1ce888'
+settings:
+  id: 'block_content:f4aa1a01-e4f8-47c7-8975-52989f1ce888'
+  label: accueil-nos-partenaires-block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

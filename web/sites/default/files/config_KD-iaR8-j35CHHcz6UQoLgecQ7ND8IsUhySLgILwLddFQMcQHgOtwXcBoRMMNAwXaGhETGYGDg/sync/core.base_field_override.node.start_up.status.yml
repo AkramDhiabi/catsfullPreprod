@@ -1,0 +1,22 @@
+uuid: ef612dbb-5b61-4c60-847a-e89ae14c73ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.start_up
+id: node.start_up.status
+field_name: status
+entity_type: node
+bundle: start_up
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

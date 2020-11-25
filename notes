@@ -1,0 +1,19 @@
+**** Mac os installation and configuration of drupal mamp ***** 
+
+#install mysql locally (default /usr/local/mysql)
+
+#download mamp server (including mysqlserver db)
+
+# open mamp and start webserver 
+#create a hard link to mysql socket
+sudo ln -s /Applications/MAMP/tmp/mysql/mysql.sock /tmp/mysql.sock
+
+#connect to mysql db and change root passwrd
+mysql --host=localhost -uroot (give passwd)
+
+#  ALTER USER 'root'@'localhost' IDENTIFIED BY 'root';
+
+COMPOSER_MEMORY_LIMIT=-1 composer install
+COMPOSER_MEMORY_LIMIT=-1 composer update (in case of package.lock)
+
+drush entity-updates

@@ -1,0 +1,18 @@
+uuid: 47c55a59-b2fc-4960-a406-1085590fd4ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.geolocation_demo_taxonomy
+id: taxonomy_term.geolocation_demo_taxonomy.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: geolocation_demo_taxonomy
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

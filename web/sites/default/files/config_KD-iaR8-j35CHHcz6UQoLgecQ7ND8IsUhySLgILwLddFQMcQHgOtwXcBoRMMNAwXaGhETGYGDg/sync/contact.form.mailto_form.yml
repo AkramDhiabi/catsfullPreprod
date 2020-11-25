@@ -1,0 +1,12 @@
+uuid: ace78bb0-46ce-4377-88d7-e8c6cd2807ac
+langcode: en
+status: true
+dependencies: {  }
+id: mailto_form
+label: mailto-form
+recipients:
+  - aymen.benyoussef@amaris.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

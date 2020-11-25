@@ -1,0 +1,29 @@
+uuid: 127c1152-e7c7-4a7a-a310-ff9c98d3f832
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_thematiques_partenaire
+    - node.type.partenaire
+    - taxonomy.vocabulary.thematiques_partenaires
+id: node.partenaire.field_thematiques_partenaire
+field_name: field_thematiques_partenaire
+entity_type: node
+bundle: partenaire
+label: 'Thématiques partenaire'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      thematiques_partenaires: thematiques_partenaires
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

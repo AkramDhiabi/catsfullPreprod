@@ -1,0 +1,20 @@
+uuid: 645c4f5c-ceae-40c3-a8a6-af2a4967a7ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_thematiques_start_up
+field_name: field_thematiques_start_up
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

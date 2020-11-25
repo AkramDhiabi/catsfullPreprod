@@ -1,0 +1,19 @@
+{#
+/**
+ * @file
+ * Theme override to display the research bloc of villages.
+ *
+ */
+#}
+{%
+  set classes = [
+    'carte-village'
+  ]
+%}
+<div class="row map-village-container">
+	<div{{ attributes.addClass(classes) }}>
+	  {% block content %}
+	    {{ content }}
+	  {% endblock %}
+	</div>
+</div>

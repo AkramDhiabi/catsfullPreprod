@@ -1,0 +1,29 @@
+uuid: cf565955-12d5-4038-8679-77144f614841
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_partenaire_village_taxonom
+    - node.type.partenaire
+    - taxonomy.vocabulary.villages
+id: node.partenaire.field_partenaire_village_taxonom
+field_name: field_partenaire_village_taxonom
+entity_type: node
+bundle: partenaire
+label: 'Partenaire-village taxonomie'
+description: "Taxonomie représentant les villages. Indispensable pour la page Partenaire.\r\nConseil : mettre la même référence que \"Village-Partenaire\"."
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      villages: villages
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

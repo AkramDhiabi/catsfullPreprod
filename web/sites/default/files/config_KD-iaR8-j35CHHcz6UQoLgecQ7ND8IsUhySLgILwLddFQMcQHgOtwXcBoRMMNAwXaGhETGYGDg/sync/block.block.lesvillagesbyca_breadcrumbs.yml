@@ -1,0 +1,22 @@
+uuid: 7ca4df14-ba72-4900-a375-0e937ca2a9a1
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - lesvillagesbyca
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: lesvillagesbyca_breadcrumbs
+theme: lesvillagesbyca
+region: primarymenu
+weight: -10
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

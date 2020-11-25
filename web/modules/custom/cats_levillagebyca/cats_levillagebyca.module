@@ -1,0 +1,74 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Session\AccountInterface;
+use Drupal\Core\Access\AccessResult;
+use Drupal\file\Entity\File;
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+/**
+ * Implements hook_help().
+ */
+function cats_levillagebyca_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the dgddi_deploy module.
+    case 'help.page.cats_levillagebyca':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module permettant de l\'intégration des développements custom du site national LeVillageByCA.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/** * Implements hook_theme(). */
+function cats_levillagebyca_theme()
+{
+  return [
+	'cats_reseaux-sociaux-link-block' => [
+        'template' => 'cats-reseaux-sociaux-link_block',
+          'variables' => array('webradiotitle' => null, 'playertitle' => null, 'webradiourl' => null, 'webradiotitlebutton' => null, 'iconurl' => null, 'rstitle' => null, 'ytitle' => null, 'ttitle' => null, 'ltitle' => null, 'yurl' => null, 'turl' => null, 'lurl' => null, 'yiconpath' => null, 'ticonpath' => null, 'liconpath' => null, 'languageTitle' => null, 'webradiotitleen' => null, 'playertitleen' => null, 'webradiourlen' => null, 'webradiotitlebuttonen' => null, 'iconurlen' => null, 'rstitleen' => null, 'ytitleen' => null, 'ttitleen' => null, 'ltitleen' => null, 'yurlen' => null, 'turlen' => null, 'lurlen' => null, 'yiconpathen' => null, 'ticonpathen' => null, 'liconpathen' => null, 'languageTitleen' => null)
+        ],
+    'cats_su-head-block' => [
+        'template' => 'cats-su-head_block',
+          'variables' => array('upTitle' => null, 'downcoloredTitle' => null, 'downTitle' => null, 'descsu' => null, 'upTitleen' => null, 'downcoloredTitleen' => null, 'downTitleen' => null, 'descsuen' => null)
+        ],
+    'cats_part-head-block' => [
+        'template' => 'cats-part-head_block',
+          'variables' => array('uppTitle' => null, 'downpcoloredTitle' => null, 'downpTitle' => null, 'descpa' => null, 'uppTitleen' => null, 'downpcoloredTitleen' => null, 'downpTitleen' => null, 'descpaen' => null)
+        ],
+    'cats_chicle-head-block' => [
+        'template' => 'cats-chicle-head_block',
+          'variables' => array('chiffresu' => null, 'textsu' => null, 'chiffrepart' => null, 'textpart' => null, 'chiffrevi' => null, 'textvi' => null, 'chiffrefo' => null, 'textfo' => null, 'uptitle' => null, 'downcoloredtitle' => null, 'downtitle' => null, 'chiffresuen' => null, 'textsuen' => null, 'chiffreparten' => null, 'textparten' => null, 'chiffrevien' => null, 'textvien' => null, 'chiffrefoen' => null, 'textfoen' => null, 'uptitleen' => null, 'downcoloredtitleen' => null, 'downtitleen' => null)
+        ],
+    'cats_chicle-head-xs-block' => [
+        'template' => 'cats-chicle-head-xs_block',
+          'variables' => array('chiffresu' => null, 'textsu' => null, 'chiffrepart' => null, 'textpart' => null, 'chiffrevi' => null, 'textvi' => null, 'chiffrefo' => null, 'textfo' => null, 'uptitle' => null, 'downcoloredtitle' => null, 'downtitle' => null, 'chiffresuen' => null, 'textsuen' => null, 'chiffreparten' => null, 'textparten' => null, 'chiffrevien' => null, 'textvien' => null, 'chiffrefoen' => null, 'textfoen' => null, 'uptitleen' => null, 'downcoloredtitleen' => null, 'downtitleen' => null)
+        ],
+    'cats_innov-block' => [
+        'template' => 'cats-innov_block',
+          'variables' => array('innovation' => null, 'descTitle' => null, 'desc' => null, 'innovationen' => null, 'desctitleen' => null, 'descen' => null)
+        ],
+    ];
+}
+
+
+/**
+ * Implements hook_page_attachments().
+ */
+function cats_levillagebyca_page_attachments(array &$page) {
+
+  if (!empty(\Drupal::config('cats_levillagebyca.theme')->get('favicon_upload')[0])) {
+    if (($fav = \Drupal::config('cats_levillagebyca.theme')->get('favicon_upload')[0]) && $file = File::load($fav)) {
+        $uri = $file->getFileUri();
+
+        $page['#attached']['html_head_link'][][] = [
+          'rel' => 'shortcut icon',
+          'href' => file_create_url($uri),
+          'type' => 'image/x-icon',
+        ];
+    }
+  }
+}

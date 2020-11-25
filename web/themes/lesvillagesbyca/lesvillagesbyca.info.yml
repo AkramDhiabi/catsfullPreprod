@@ -1,0 +1,20 @@
+name: LES VILLAGES BY CA
+type: theme
+base theme: classy
+Description: "A modern & responsive Drupal 8 Theme dedicated to LE VILLAGE BY CA WEBSITE"
+package: custom
+core: 8.x
+libraries:
+  - 'lesvillagesbyca/global-styling'
+  - 'lesvillagesbyca/fonts'
+
+regions:
+      # header: 'Header'
+      primarymenu: 'Primary Menu'
+      secondarymenu: 'Secondary Menu'
+      logo: 'Logo'
+      breadcrumbs: 'Breadcrumbs'
+      jumbotron: 'Jumbotron'
+      content: 'Main Content'
+      topfooter: 'Top Footer'
+      bottomfooter: 'Bottom Footer'

@@ -1,0 +1,26 @@
+uuid: 7e6734c8-c3f9-48fe-9cbb-0155d81f9bc2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - cats_levillagebyca
+    - system
+  theme:
+    - lesvillagesbyca
+id: headchiclemobilebloc
+theme: lesvillagesbyca
+region: content
+weight: -20
+provider: null
+plugin: chiclexs_block
+settings:
+  id: chiclexs_block
+  label: 'Head chicle mobile bloc'
+  provider: cats_levillagebyca
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,34 @@
+startups:
+  uptitle: 'UN VIVIER DE PLUS DE 600 START-UPS'
+  downcoloredtitle: 'REJOIGNEZ LE 1ER'
+  downtitle: 'RÉSEAU D''ACCÉLÉRATEURS DE START-UPS EN FRANCE'
+  descsu:
+    value: "<p>Nous accélérons le développement des start-ups en les accompagnant au jour le jour avec un dispositif à 360° : master class, conférences, réseau d’experts, espaces d’exception pour recevoir clients et investisseurs, mises en relations avec les grands groupes, réseau Alumni.</p>\r\n"
+    format: basic_html
+  textsu: Start-ups
+  chiffresu: '645'
+partenaires:
+  uptitle: 'PLUS DE 500 PARTENAIRES'
+  downcoloredtitle: 'REJOIGNEZ LE 1ER'
+  downtitle: 'RÉSEAU D''ACCÉLÉRATEURS DE START-UPS EN FRANCE'
+  descsu:
+    value: "<p>Nous accélérons le développement des start-ups en les accompagnant au jour le jour avec un dispositif à 360° : master class, conférences, réseau d’experts, espaces d’exception pour recevoir clients et investisseurs, mises en relations avec les grands groupes, réseau Alumni.</p>\r\n"
+    format: basic_html
+  descpart:
+    value: "<p>Nous accélérons le développement des start-ups en les accompagnant au jour le jour avec un dispositif à 360° : master class, conférences, réseau d’experts, espaces d’exception pour recevoir clients et investisseurs, mises en relations avec les grands groupes, réseau Alumni.</p>\r\n"
+    format: basic_html
+en:
+  startups:
+    uptitle: 'MORE THAN 600 START-UPS'
+    downcoloredtitle: 'JOIN FRANCE’S 1ST'
+    downtitle: 'START-UP ACCELERATION NETWORK'
+    descsu:
+      value: "<p>We accelerate the development of start-ups by providing them with everyday support and a &nbsp;360° assistance program: master classes, conferences, expert networks, dedicated spaces for hosting clients and investors, networking with major business groups, and an alumni network.</p>\r\n"
+      format: basic_html
+  partenaires:
+    uptitle: 'MORE THAN 500 PARTNERS'
+    downcoloredtitle: 'A NEW BUSINESS ADVENTURE'
+    downtitle: 'MULTIPLY YOUR OPPORTUNITIES'
+    descpart:
+      value: "<p>Our partner ecosystem consists of major, mid-cap and small companies, schools, universities, and even regional, national and international actors. As essential players in the Village by CA network’s development, our partners benefit from the innovative and contemporary solutions provided by our pool of start-ups.</p>\r\n"
+      format: basic_html

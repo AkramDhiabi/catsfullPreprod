@@ -1,0 +1,31 @@
+uuid: a4b56295-b256-40e2-81b5-81319ecf4b2b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:3f169fee-2eda-434d-8d31-f57c80c356be'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: accueilnosvillagesblock
+theme: lesvillagesbyca
+region: content
+weight: -17
+provider: null
+plugin: 'block_content:3f169fee-2eda-434d-8d31-f57c80c356be'
+settings:
+  id: 'block_content:3f169fee-2eda-434d-8d31-f57c80c356be'
+  label: accueil-nos-villages-block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

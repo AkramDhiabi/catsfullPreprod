@@ -1,0 +1,25 @@
+{% if path('<current>') starts with '/fr' %}
+	<div class="ca-blocks-extern-separator"></div>
+	<div class="ca-blocks-title col-md-9 p-0">
+		<h2>{{ upTitle }}</h2>
+	</div>
+	<div class="ca-blocks-intern-separator"></div>
+	<div class="ca-blocks-subtitle-black col-lg-9 col-md-12 p-0">
+		<h3><span class="titre-color-head">{{ downcoloredTitle }}</span> {{ downTitle }}</h3>
+	</div>
+	<div class="ca-blocks-text-content">
+		<p>{{ descsu|raw }}</p>
+	</div>
+{% elseif path('<current>') starts with '/en' %}
+	<div class="ca-blocks-extern-separator"></div>
+	<div class="ca-blocks-title col-md-9 p-0">
+		<h2>{{ upTitleen }}</h2>
+	</div>
+	<div class="ca-blocks-intern-separator"></div>
+	<div class="ca-blocks-subtitle-black col-lg-9 col-md-12 p-0">
+		<h3><span class="titre-color-head">{{ downcoloredTitleen }}</span> {{ downTitleen }}</h3>
+	</div>
+	<div class="ca-blocks-text-content">
+		<p>{{ descsuen|raw }}</p>
+	</div>
+{% endif %}

@@ -1,0 +1,41 @@
+<?php
+
+use Drupal\block\Entity\Block;
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function lesvillagesbyca_theme_suggestions_input_alter(&$suggestions, array $variables)
+{
+  $element = $variables['element'];
+  if (isset($variables['element']['#type']) AND $variables['element']['#type'] == 'submit') {
+    if(\Drupal::routeMatch()->getRouteName() == 'entity.node.canonical') {
+      $suggestions[] = 'input__submit__reseaux';
+    }
+  }
+
+}
+
+/**
+ * Implements template_preprocess_node().
+ */
+function lesvillagesbyca_preprocess_block(&$variables) {
+  $route_name = Drupal::routeMatch()->getRouteName();
+
+  if ($route_name == "entity.node.canonical") {
+    $block_rechercheVillageMap = Block::load('views_block__recherche_villages_block_1');
+    $block_rechercheVillageMap_content = \Drupal::entityTypeManager()
+      ->getViewBuilder('block')
+      ->view($block_rechercheVillageMap);
+    $variables['blockRechercheVillageMap']=$block_rechercheVillageMap_content;
+  }
+}
+
+function lesvillagesbyca_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id)
+{
+  if ($form['#id'] == "views-exposed-form-recherche-villages-principal-block") {
+    $form["field_village_vocabulaire_target_id"]["#attributes"] = array(
+      "placeholder" => "Rechercher un village",
+    );
+  }
+}

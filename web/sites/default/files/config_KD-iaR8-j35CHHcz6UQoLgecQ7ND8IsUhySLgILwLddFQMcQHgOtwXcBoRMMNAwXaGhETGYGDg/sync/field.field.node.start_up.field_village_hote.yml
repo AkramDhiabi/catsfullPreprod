@@ -1,0 +1,28 @@
+uuid: edd1c006-9a56-429c-81aa-7c8b226ffc49
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_village_hote
+    - node.type.start_up
+    - node.type.village
+id: node.start_up.field_village_hote
+field_name: field_village_hote
+entity_type: node
+bundle: start_up
+label: Village-Hote
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      village: village
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

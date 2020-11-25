@@ -1,0 +1,30 @@
+uuid: c36f56ce-d334-4cff-8b59-612d4c02189e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recherche_villages
+  module:
+    - system
+    - views
+  theme:
+    - lesvillagesbyca
+id: views_block__recherche_villages_principal_block
+theme: lesvillagesbyca
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:recherche_villages-principal_block'
+settings:
+  id: 'views_block:recherche_villages-principal_block'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /le-reseau
+    negate: false
+    context_mapping: {  }

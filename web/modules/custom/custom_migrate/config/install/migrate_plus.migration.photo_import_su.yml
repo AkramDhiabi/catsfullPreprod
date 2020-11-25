@@ -1,0 +1,49 @@
+id: photo_import_su
+label: 'Import des logos'
+migration_group: start_up
+migration_tags:
+  - CSV
+source:
+  plugin: csv
+  path: 'public://import/starts_up.csv'
+  delimiter: ','
+  header_row_count: 1
+  keys:
+    - 'id'
+  fields:
+    id: 'Unique Id'
+    URL du logo: URL de limage
+  constants:
+    file_destination: 'public://startsup'
+process:
+  id: id
+  destination_filename:
+    -
+      plugin: callback
+      callable: basename
+      source: 'URL du logo'
+    -
+      plugin: skip_on_empty
+      method: row
+  destination_full_path:
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - constants/file_destination
+        - '@destination_filename'
+    -
+      plugin: urlencode
+  source_full_path:
+    -
+      plugin: get
+      source: 'URL du logo'
+    -
+      plugin: urlencode
+  uri:
+    plugin: file_copy
+    source:
+      - '@source_full_path'
+      - '@destination_full_path'
+destination:
+  plugin: 'entity:file'

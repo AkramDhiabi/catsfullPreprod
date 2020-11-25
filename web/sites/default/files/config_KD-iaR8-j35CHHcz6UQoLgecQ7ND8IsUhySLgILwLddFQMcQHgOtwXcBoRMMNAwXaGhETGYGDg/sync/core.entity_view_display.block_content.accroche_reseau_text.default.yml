@@ -1,0 +1,22 @@
+uuid: ab1c7b9e-5e48-4e4b-a2d9-30105dc3c765
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_reseau_text
+    - field.field.block_content.accroche_reseau_text.field_accroche_reseau_text_conte
+  module:
+    - text
+id: block_content.accroche_reseau_text.default
+targetEntityType: block_content
+bundle: accroche_reseau_text
+mode: default
+content:
+  field_accroche_reseau_text_conte:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

@@ -1,0 +1,14 @@
+uuid: 8f105afe-f899-4a02-a23c-ce7f5e49bb54
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.maire_village
+  module:
+    - user
+id: user_add_role_action.maire_village
+label: 'Add the maire-village role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: maire_village

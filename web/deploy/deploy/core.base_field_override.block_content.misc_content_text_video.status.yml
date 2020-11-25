@@ -1,0 +1,22 @@
+uuid: 90df9a9c-4fc1-4e1d-95f6-b276f479db6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.misc_content_text_video
+id: block_content.misc_content_text_video.status
+field_name: status
+entity_type: block_content
+bundle: misc_content_text_video
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

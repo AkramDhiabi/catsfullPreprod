@@ -1,0 +1,10 @@
+name: CATS LeVillageByCA
+type: module
+description: Custom development for LeVillageByCA
+core: 8.x
+package: Custom
+version: '8.x-1.0'
+project: 'cats_levillagebyca'
+
+'interface translation project': 'cats_levillagebyca'
+'interface translation server pattern': 'modules/custom/cats_levillagebyca/%project.%language.po'

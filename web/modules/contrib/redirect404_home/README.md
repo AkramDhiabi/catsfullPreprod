@@ -1,0 +1,1 @@
+redirect404_home

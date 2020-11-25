@@ -1,0 +1,22 @@
+uuid: 4b067300-5695-4cec-b9e2-ea2fb52dcc37
+langcode: en
+status: true
+dependencies: {  }
+name: fiche
+label: Fiche
+effects:
+  3d0784d3-296e-467b-8d24-b2969e71c2aa:
+    uuid: 3d0784d3-296e-467b-8d24-b2969e71c2aa
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 750
+      height: 250
+      anchor: center-center
+  9ff548f5-15fe-4473-9098-0d60d7fa6325:
+    uuid: 9ff548f5-15fe-4473-9098-0d60d7fa6325
+    id: image_resize
+    weight: 2
+    data:
+      width: 750
+      height: 250

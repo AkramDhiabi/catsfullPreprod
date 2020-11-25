@@ -1,0 +1,187 @@
+.main-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "jumbotron"
+    "content"
+    "topfooter"
+    "bottomfooter";
+  grid-template-rows: 62px 547px 1fr 245px 93px;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1px;
+  grid-column-gap: 1px;
+  height: 100vh;
+  margin: 0;
+}
+
+header,main {
+  padding-left: 82px;
+  padding-right: 82px;
+  }
+
+#header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: relative;
+  z-index: 1;
+}
+
+#primary-menu {
+  height:36px;
+  width:700px;
+  margin-left: 30%;
+}
+
+
+#secondary-menu {
+  height:36px;
+  width:300px;
+  margin-left: 10%;
+}
+
+#jumbotron {
+  grid-area: jumbotron;
+  width: 100%;
+  z-index: 1;
+}
+
+#logo {
+  position: absolute;
+  height: 126px;
+  width: 126px;
+  left: 82px;
+  z-index: 2;
+  background:#FFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#breadcrumbs {
+  position:absolute;
+  margin-top: 100px;
+  height: 50px;
+  width: 400px;
+  left: 82px;
+  z-index: 2;
+  color: #FFF;
+}
+
+.breadcrumbs-font {
+  font-size: 12px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  background-color:transparent;
+}
+
+#content {
+  grid-area: content;
+}
+
+#coverpage {
+   object-fit:fill;
+}
+
+.mytheme-site-logo{
+  display: block;
+  margin-top:30px;
+  margin-left:10px;
+}
+/*  ***************************Main navigation Menu : to be moved to menu.css  ****************************/
+  .main-header {
+    border : 1px solid red;
+  }
+
+  .top-header {
+    height: 62px;
+    width : 100%;
+    padding-left: 82px;
+    padding-right: 82px;
+     border : 1px solid;
+  }
+
+  
+
+/*  ***************************colors : to be moved to colors.css  ****************************/
+  .btn-ca-primary {
+    background-color : #ff2655;
+  }
+  .btn-ca-primary-bis {
+    background-color : #1D1045;
+  }
+
+  .btn-ca-secondary {
+    background-color : #A3D9E7;
+  }
+
+  .btn-ca-secondary-bis {
+    background-color : #F4CC66;
+  }
+/*  ***************************front page template  ****************************/
+  .front-block {
+    display : inline-block;
+  }
+
+  .front-links-container {
+    margin: 0;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+a.btn-ca-front {
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin-bottom: 42px;
+color: black;
+font-size: 18px;
+font-family: 'Montserrat';
+font-weight: 300px;
+width: 296px;
+height: 54px;
+line-height :3.3;
+}
+
+a.btn-ca-front:hover {
+  text-decoration: none;
+}
+
+
+/*  ***************************header social icons  ****************************/
+.header-twitter-icon {
+  height: 21px;
+  width: 20px;
+  margin-right:10px;
+  color : #00ACEE;
+
+}
+
+.header-youtube-icon {
+  height: 24px;
+  width: 23px;
+  margin-right:10px;
+  color : #FF0000;
+}
+
+.header-linkedin-icon {
+  height: 19px;
+  width: 19px;
+  margin-right:14px;
+  color : #0E76A8;
+}
+
+.header-flag-icon {
+  height: 24px;
+  width: 24px;
+  border-color: 1px solid;
+  color: #9BD3E1;
+}
+
+
+
+
+/*  ***************************button webradio footer****************************/
+

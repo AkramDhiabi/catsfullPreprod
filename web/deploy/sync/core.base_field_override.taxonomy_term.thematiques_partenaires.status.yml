@@ -1,0 +1,22 @@
+uuid: 0d4a2a81-295f-483e-8a12-aecba5361397
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.thematiques_partenaires
+id: taxonomy_term.thematiques_partenaires.status
+field_name: status
+entity_type: taxonomy_term
+bundle: thematiques_partenaires
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

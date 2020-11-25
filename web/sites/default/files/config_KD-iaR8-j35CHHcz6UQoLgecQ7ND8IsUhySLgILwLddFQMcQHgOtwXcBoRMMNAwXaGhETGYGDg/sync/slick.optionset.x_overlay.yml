@@ -1,0 +1,22 @@
+uuid: fbedf90b-df03-43a2-90b4-831047842c82
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - slick_example
+_core:
+  default_config_hash: JJ8VOS1_tyE2uspt-tysByORCllisx0igwGVr3_Q0Zs
+id: x_overlay
+name: x_overlay
+label: 'X Overlay'
+weight: -3
+group: overlay
+skin: boxed
+breakpoints: 0
+optimized: true
+options:
+  settings:
+    dots: true
+    lazyLoad: ondemand
+    slidesToShow: 1

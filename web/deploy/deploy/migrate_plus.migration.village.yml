@@ -1,0 +1,34 @@
+uuid: 76ed2fe0-d454-427b-ad43-6d67d76a61e1
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vEcwgVAWYwumta_qMJ0U59Nr1_ptYC3lSG9aKdUPRHI
+id: village
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - CSV
+migration_group: village
+label: 'Import des villages'
+source:
+  plugin: csv
+  path: 'public://import/village.csv'
+  delimiter: ','
+  header_row_count: 1
+  keys:
+    - id
+  fields:
+    id: 'Unique Id'
+    Villages: villages
+process:
+  type:
+    plugin: default_value
+    default_value: village
+  id: id
+  title: Villages
+destination:
+  plugin: 'entity:node'
+  default_bundle: village
+migration_dependencies: null

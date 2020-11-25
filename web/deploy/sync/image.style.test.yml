@@ -1,0 +1,16 @@
+uuid: c3f231e6-bed9-43b2-bc0b-f7ece00d33e4
+langcode: fr
+status: true
+dependencies: {  }
+name: test
+label: test
+effects:
+  f03cf353-1ae4-465b-8aeb-8b4bd3466078:
+    uuid: f03cf353-1ae4-465b-8aeb-8b4bd3466078
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150
+      anchor: center-center
+pipeline: ''

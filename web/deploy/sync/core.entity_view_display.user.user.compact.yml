@@ -1,0 +1,21 @@
+uuid: bb9bb940-1589-4766-a0e7-69980e9fff58
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+  module:
+    - user
+_core:
+  default_config_hash: '-cLsS3M3JycipXQt9rEb81_HxKneReoGuRh8ijcOPXs'
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content: {  }
+hidden:
+  field_last_password_reset: true
+  field_password_expiration: true
+  langcode: true
+  member_for: true
+  user_picture: true

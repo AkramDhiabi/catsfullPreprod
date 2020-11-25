@@ -1,0 +1,66 @@
+uuid: 2b77bf84-8a47-4eac-9a1b-d4cfee41a1a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_startup_thematique
+field_name: field_startup_thematique
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Agriculture
+      label: Agriculture
+    -
+      value: Agroalimentaire
+      label: Agroalimentaire
+    -
+      value: 'Emploi, Education et formation'
+      label: 'Emploi, Education et formation'
+    -
+      value: 'Energies, Industrie et Robotique'
+      label: 'Energies, Industrie et Robotique'
+    -
+      value: Environnement
+      label: Environnement
+    -
+      value: 'Economie Sociale et Solidaire'
+      label: 'Economie Sociale et Solidaire'
+    -
+      value: 'Finance et assurance'
+      label: 'Finance et assurance'
+    -
+      value: 'Immobilier, Habitat, Logement et Nouveaux espaces'
+      label: 'Immobilier, Habitat, Logement et Nouveaux espaces'
+    -
+      value: 'IA / Big Data / Blockchain'
+      label: 'IA / Big Data / Blockchain'
+    -
+      value: 'Médias, Culture, Loisirs et Sports, réseaux sociaux'
+      label: 'Médias, Culture, Loisirs et Sports, réseaux sociaux'
+    -
+      value: 'Retail et e-commerce'
+      label: 'Retail et e-commerce'
+    -
+      value: 'Santé, bien être et Silver économie'
+      label: 'Santé, bien être et Silver économie'
+    -
+      value: 'Services Juridiques'
+      label: 'Services Juridiques'
+    -
+      value: 'Sécurité et Cybersécurité'
+      label: 'Sécurité et Cybersécurité'
+    -
+      value: 'Voyage, Hôtellerie et Mobilités'
+      label: 'Voyage, Hôtellerie et Mobilités'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

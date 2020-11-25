@@ -1,0 +1,22 @@
+uuid: 2ba2a6cb-b4bf-4610-abc0-dbdfadbad7d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.test_geo
+id: node.test_geo.status
+field_name: status
+entity_type: node
+bundle: test_geo
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

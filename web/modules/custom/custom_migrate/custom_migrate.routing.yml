@@ -1,0 +1,7 @@
+custom_migrate.pagedetest:
+  path: '/pagededebug'
+  defaults:
+    _title: 'Mon debug ici'
+    _controller: '\Drupal\custom_migrate\Controller\TestController::content'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,45 @@
+uuid: 708ac478-fc30-4e75-86b0-3278dc92efd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_village_image
+    - node.type.village
+  module:
+    - content_translation
+    - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
+id: node.village.field_village_image
+field_name: field_village_image
+entity_type: node
+bundle: village
+label: Village-Image
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 45419328-ad7d-4985-ab34-8016f481b957
+    alt: ''
+    title: ''
+    width: 223
+    height: 400
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,18 @@
+uuid: dd607b0b-e17d-4c7d-9dfa-519cab6deb09
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.village
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.village
+target_entity_type_id: node
+target_bundle: village
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,31 @@
+uuid: 7b019ec9-3610-4c02-9645-0928a1ffc593
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_reseau_text
+    - field.field.block_content.accroche_reseau_text.field_accroche_reseau_text_conte
+  module:
+    - text
+id: block_content.accroche_reseau_text.default
+targetEntityType: block_content
+bundle: accroche_reseau_text
+mode: default
+content:
+  field_accroche_reseau_text_conte:
+    weight: 27
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

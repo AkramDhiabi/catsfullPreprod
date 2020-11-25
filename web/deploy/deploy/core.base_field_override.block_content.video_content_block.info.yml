@@ -1,0 +1,18 @@
+uuid: 0255b0be-2d13-4064-9438-4b7a6baa2472
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.video_content_block
+id: block_content.video_content_block.info
+field_name: info
+entity_type: block_content
+bundle: video_content_block
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

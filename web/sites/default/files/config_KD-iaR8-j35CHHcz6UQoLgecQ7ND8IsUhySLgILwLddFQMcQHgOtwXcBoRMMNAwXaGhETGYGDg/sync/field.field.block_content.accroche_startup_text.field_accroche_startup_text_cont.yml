@@ -1,0 +1,21 @@
+uuid: 5125e211-3095-4c8e-bab6-3e2d89085afc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accroche_startup_text
+    - field.storage.block_content.field_accroche_startup_text_cont
+  module:
+    - text
+id: block_content.accroche_startup_text.field_accroche_startup_text_cont
+field_name: field_accroche_startup_text_cont
+entity_type: block_content
+bundle: accroche_startup_text
+label: 'accroche Startup Text content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

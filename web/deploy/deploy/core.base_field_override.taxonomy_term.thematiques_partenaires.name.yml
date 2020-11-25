@@ -1,0 +1,18 @@
+uuid: 24854a7b-807f-43a6-bf62-c77361737d89
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.thematiques_partenaires
+id: taxonomy_term.thematiques_partenaires.name
+field_name: name
+entity_type: taxonomy_term
+bundle: thematiques_partenaires
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: a39395f6-23e2-40a3-944e-769cbe0bc395
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_partenaire_thematique
+    - node.type.partenaire
+  module:
+    - options
+id: node.partenaire.field_partenaire_thematique
+field_name: field_partenaire_thematique
+entity_type: node
+bundle: partenaire
+label: Partenaire-Thématique
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

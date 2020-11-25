@@ -1,0 +1,31 @@
+uuid: 0ec92a22-54e4-4395-a404-08c7579cefc6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pink_button_block:315ec2e3-ff11-44f6-84c5-543920e82c57'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: startupsbutton
+theme: lesvillagesbyca
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:315ec2e3-ff11-44f6-84c5-543920e82c57'
+settings:
+  id: 'block_content:315ec2e3-ff11-44f6-84c5-543920e82c57'
+  label: startups-button
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

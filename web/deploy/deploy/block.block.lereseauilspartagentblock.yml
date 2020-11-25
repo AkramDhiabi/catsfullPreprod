@@ -1,0 +1,31 @@
+uuid: 9c953b68-2e2f-4937-a668-d3c1bce72142
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:misc_content_text_video:dc614afa-eea5-4328-9273-08d6545d9c4f'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: lereseauilspartagentblock
+theme: lesvillagesbyca
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:dc614afa-eea5-4328-9273-08d6545d9c4f'
+settings:
+  id: 'block_content:dc614afa-eea5-4328-9273-08d6545d9c4f'
+  label: le-reseau-ils-partagent-block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/1
+    negate: false
+    context_mapping: {  }

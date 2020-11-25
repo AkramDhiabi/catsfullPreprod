@@ -1,0 +1,19 @@
+{#
+/**
+ * @file
+ * Theme override for a views exposed form.
+ *
+ * Override the "Partenaire" template
+ *
+ * @see template_preprocess_views_exposed_form()
+ */
+#}
+<form {{ attributes }}>
+  <div class="filter-form-tablets" style="margin:20px">
+  <img src="/themes/lesvillagesbyca/images/Vector.png" style="margin-right:10px">
+  <label class="label-filter" style="margin-right:20px">Filtrer par</label>
+    {{ form.field_thematiques_partenaire_target_id }}
+    {{ form.field_partenaire_village_taxonom_target_id }}
+    <input type="submit" id="edit-submit-startups-listing" type="button" value="OK" class="validation-button ca-fonts-montserrat-medium" value>
+  </div>
+</form>

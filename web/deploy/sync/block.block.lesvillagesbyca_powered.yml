@@ -1,0 +1,22 @@
+uuid: 26663a5e-bf8f-4d61-8105-91432461586b
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - lesvillagesbyca
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: lesvillagesbyca_powered
+theme: lesvillagesbyca
+region: primarymenu
+weight: -19
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

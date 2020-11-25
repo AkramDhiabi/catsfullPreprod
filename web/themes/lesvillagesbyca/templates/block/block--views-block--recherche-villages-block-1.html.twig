@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Theme override to display the map.
+ *
+ */
+#}
+{%
+  set classes = [
+    'col-md-12',
+    'col-xs-6'
+  ]
+%}
+<div {{ attributes.addClass(classes) }}>
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+</div>

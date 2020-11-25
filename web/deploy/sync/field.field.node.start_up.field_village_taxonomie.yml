@@ -1,0 +1,29 @@
+uuid: 52ce09e5-4432-4385-8988-21ef8dfe97de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_village_taxonomie
+    - node.type.start_up
+    - taxonomy.vocabulary.villages
+id: node.start_up.field_village_taxonomie
+field_name: field_village_taxonomie
+entity_type: node
+bundle: start_up
+label: Village-taxonomie
+description: "Taxonomie représentant les villages. Indispensable pour la page Start-up.\r\nConseil : mettre la même référence que \"Village-Hôte\"."
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      villages: villages
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

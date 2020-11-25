@@ -1,0 +1,38 @@
+uuid: dcd590c0-182e-463e-9aa6-3c8151bfbd99
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slick_y
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - lesvillagesbyca
+id: views_block__slick_y_block_1
+theme: lesvillagesbyca
+region: content
+weight: -17
+provider: null
+plugin: 'views_block:slick_y-block_1'
+settings:
+  id: 'views_block:slick_y-block_1'
+  label: 'Villages Carousel'
+  provider: views
+  label_display: '0'
+  views_label: 'Villages Carousel'
+  items_per_page: '4'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      village: village
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

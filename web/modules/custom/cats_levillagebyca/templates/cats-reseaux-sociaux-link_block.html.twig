@@ -1,0 +1,41 @@
+{% if path('<current>') starts with '/fr' %}
+	<div class="social-links-bar">
+		<div class="ca-fonts-montserrat-medium btn-primary-bis header-link-social-network">{{ webradiotitle }}</div>
+		<button class="button-footer-webradio header" href="#">{{ playertitle }}</button>
+		<button class="ca-header-webradio-button ca-fonts-montserrat-medium" onclick="window.open('{{ webradiourl }}', '_blank')" type="button">{{ webradiotitlebutton }}&nbsp;&nbsp; 
+			<img alt="micro-web-radio" class="svg" data-entity-type="file" data-entity-uuid="2fcb0613-092d-42e7-a58b-0810ebf54a5b" src="/sites/default/files{{ iconurl }}" />
+		</button>
+
+		<div class="ca-fonts-montserrat-medium btn-primary-bis header-link-social-network">{{ rstitle }}</div>
+		<a class="social-links-inter-margin" href="{{ yurl }}" target="_blank" title="{{ ytitle }}">
+			<img alt="youtube-little" data-entity-type="file" data-entity-uuid="f6c722a4-d576-43bf-bb80-c86ea43c1607" src="/sites/default/files{{ yiconpath }}" />
+		</a>
+		<a class="social-links-inter-margin" href="{{ turl }}" target="_blank" title="{{ ttitle }}">
+			<img alt="twitter-little" data-entity-type="file" data-entity-uuid="f34ba27c-9027-4a73-89a2-6ea5ba37e5c4" src="/sites/default/files{{ ticonpath }}" />
+		</a>
+		<a class="social-links-extra-margin" href="{{ lurl }}" target="_blank" title="{{ ltitle }}">
+			<img alt="linkedin-little" data-entity-type="file" data-entity-uuid="7e6ce9b1-802f-465e-b87e-9e45a6d55d49" src="/sites/default/files{{ liconpath }}" />
+		</a>
+		<div class="ca-fonts-montserrat-medium btn-primary-bis header-link-social-network" id="header-link-social-network-lang">{{ languageTitle }}</div>
+	</div>
+{% elseif path('<current>') starts with '/en' %}
+	<div class="social-links-bar">
+		<div class="ca-fonts-montserrat-medium btn-primary-bis header-link-social-network">{{ webradiotitleen }}</div>
+		<button class="button-footer-webradio header" href="#">{{ playertitleen }}</button>
+		<button class="ca-header-webradio-button ca-fonts-montserrat-medium" onclick="window.open('{{ webradiourlen }}', '_blank')" type="button">{{ webradiotitlebuttonen }}&nbsp;&nbsp; 
+			<img alt="micro-web-radio" class="svg" data-entity-type="file" data-entity-uuid="2fcb0613-092d-42e7-a58b-0810ebf54a5b" src="/sites/default/files{{ iconurlen }}" />
+		</button>
+
+		<div class="ca-fonts-montserrat-medium btn-primary-bis header-link-social-network">{{ rstitleen }}</div>
+		<a class="social-links-inter-margin" href="{{ yurlen }}" target="_blank" title="{{ ytitleen }}">
+			<img alt="youtube-little" data-entity-type="file" data-entity-uuid="f6c722a4-d576-43bf-bb80-c86ea43c1607" src="/sites/default/files{{ yiconpathen }}" />
+		</a>
+		<a class="social-links-inter-margin" href="{{ turlen }}" target="_blank" title="{{ ttitleen }}">
+			<img alt="twitter-little" data-entity-type="file" data-entity-uuid="f34ba27c-9027-4a73-89a2-6ea5ba37e5c4" src="/sites/default/files{{ ticonpathen }}" />
+		</a>
+		<a class="social-links-extra-margin" href="{{ lurlen }}" target="_blank" title="{{ ltitleen }}">
+			<img alt="linkedin-little" data-entity-type="file" data-entity-uuid="7e6ce9b1-802f-465e-b87e-9e45a6d55d49" src="/sites/default/files{{ liconpathen }}" />
+		</a>
+		<div class="ca-fonts-montserrat-medium btn-primary-bis header-link-social-network" id="header-link-social-network-lang">{{ languageTitleen }}</div>
+	</div>
+{% endif %}

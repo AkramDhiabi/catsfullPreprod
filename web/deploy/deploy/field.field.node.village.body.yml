@@ -1,0 +1,22 @@
+uuid: 9778c0a2-08d1-492c-a586-e29f4981a8db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.village
+  module:
+    - text
+id: node.village.body
+field_name: body
+entity_type: node
+bundle: village
+label: Village-Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

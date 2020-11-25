@@ -1,0 +1,8 @@
+uuid: 34673eac-af05-4a7b-b046-ad82042b9ae4
+langcode: en
+status: true
+dependencies: {  }
+name: 'Thématiques Partenaires'
+vid: thematiques_partenaires
+description: 'Secteurs d''activité des Partenaires'
+weight: 0

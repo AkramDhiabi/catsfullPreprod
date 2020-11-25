@@ -1,0 +1,42 @@
+cats_levillagebyca.theme_form:
+  path: '/admin/config/theme'
+  defaults:
+    _title: 'Administration du thème LeVillageByCA'
+    _form: '\Drupal\cats_levillagebyca\Form\ThemesAdminForm'
+  requirements:
+    _permission: 'access theme admin'
+cats_levillagebyca.admin_config_admincats:
+  path: '/admin/config/administration-pages-cats'
+  defaults:
+    _title: 'Administration des formulaires CATS'
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+  requirements:
+    _permission: 'access theme admin'
+cats_levillagebyca.formsocialnetwork_admin:
+  path: '/admin/config/reseauxsociaux'
+  defaults:
+    _title: 'Description des entités Réseaux Sociaux'
+    _form: '\Drupal\cats_levillagebyca\Form\SocialAdminForm'
+  requirements:
+    _permission: 'access social page admin'
+cats_levillagebyca.formsupart_admin:
+  path: '/admin/config/headsupart'
+  defaults:
+    _title: 'Description des entêtes des pages Startups et Partenaires'
+    _form: '\Drupal\cats_levillagebyca\Form\SuPartAdminForm'
+  requirements:
+    _permission: 'access supart page admin'
+cats_levillagebyca.formchiffrescles_admin:
+  path: '/admin/config/chiffres-cles'
+  defaults:
+    _title: 'Description des chiffres clés'
+    _form: '\Drupal\cats_levillagebyca\Form\ChiffresClesAdminForm'
+  requirements:
+    _permission: 'access chicle admin'
+cats_levillagebyca.forminnov_admin:
+  path: '/admin/config/innovation'
+  defaults:
+    _title: 'Description du bloc Innovation'
+    _form: '\Drupal\cats_levillagebyca\Form\InnovationAdminForm'
+  requirements:
+    _permission: 'access innov admin'

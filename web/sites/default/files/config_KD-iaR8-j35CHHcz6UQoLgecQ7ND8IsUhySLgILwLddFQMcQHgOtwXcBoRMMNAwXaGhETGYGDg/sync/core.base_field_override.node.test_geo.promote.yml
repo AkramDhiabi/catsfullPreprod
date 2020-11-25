@@ -1,0 +1,22 @@
+uuid: 3e79ab18-083c-4190-8f32-5339320166ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.test_geo
+id: node.test_geo.promote
+field_name: promote
+entity_type: node
+bundle: test_geo
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

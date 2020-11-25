@@ -1,0 +1,40 @@
+global-styling:
+  version : 1.x
+  css:
+     theme:
+       includes/bootstrap/css/bootstrap.css: {}
+       css/global.css: {}
+       css/style-large.css: {}
+       css/style-small.css: {}
+       css/style-medium.css: {}
+       css/style.css: {}
+  js: 
+      includes/bootstrap/js/bootstrap.min.js: {}
+      js/custom.js: {}
+      js/custom2.js: {}
+      js/custom3.js: {}
+      js/custom4.js: {}
+      js/custom5.js: {}
+      js/custom6.js: {}
+  dependecies:
+      - core/jquery
+      - core/jquery
+      - core/drupal.ajax
+      - core/drupal
+      - core/drupalSettings
+      - core/jquery.once
+
+
+
+fonts:
+  css:
+     theme:
+       # montserrat normal : 100
+       # montserrat light : 300
+       # montserrat medium : 500
+       # montserrat Semibold : 600
+       # montserrat Extrabold : 800
+      'https://fonts.googleapis.com/css?family=Montserrat:100,300,500,600,800': { type: external }
+      #  Muli regular : 400
+      #  Muli bold : 700
+      'https://fonts.googleapis.com/css?family=Muli:400,700': {type:external}

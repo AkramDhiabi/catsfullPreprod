@@ -1,0 +1,31 @@
+uuid: 5d765f55-7afa-4e50-a233-9fba0e0fe810
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:container_block:4c1a4380-820e-46c9-9573-d606f452d514'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: photogallery
+theme: lesvillagesbyca
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:4c1a4380-820e-46c9-9573-d606f452d514'
+settings:
+  id: 'block_content:4c1a4380-820e-46c9-9573-d606f452d514'
+  label: photo-gallery
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /le-reseau
+    negate: false
+    context_mapping: {  }

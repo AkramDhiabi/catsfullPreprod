@@ -1,0 +1,21 @@
+uuid: a1774ee7-9cb0-487a-90bc-b32fadaabb80
+langcode: fr
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  member_for:
+    weight: 5
+    region: content
+hidden:
+  field_last_password_reset: true
+  field_password_expiration: true
+  langcode: true
+  user_picture: true

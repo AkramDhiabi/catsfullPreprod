@@ -1,0 +1,177 @@
+# French translation of Drupal VM
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-04-27 16:57+0100\n"
+"PO-Revision-Date: 2017-04-27 16:57+0100\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "cats_theme_admin_page"
+msgid "Theme administration page for LeVillageByCA"
+msgstr "Administration du thème LeVillageByCA"
+
+msgctxt "cats_theme_admin_page"
+msgid "Site name"
+msgstr "Nom du site"
+
+msgctxt "cats_theme_admin_page"
+msgid "Site slogan"
+msgstr "Slogan du site"
+
+msgctxt "cats_theme_admin_page"
+msgid "Site logo"
+msgstr "Logo du site"
+
+msgctxt "cats_theme_admin_page"
+msgid "Logo Alternative Text"
+msgstr "Texte alternatif du logo du site"
+
+msgctxt "cats_theme_admin_page"
+msgid "Site favicon"
+msgstr "Favicon du site"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Social Network administration page"
+msgstr "Administration des Réseaux Sociaux"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Webradio title"
+msgstr "Titre de la Webradio"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Player title"
+msgstr "Titre du player"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Webradio URL"
+msgstr "URL de la Webradio"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Webradio title button"
+msgstr "Titre du bouton de la Webradio"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Icon URL"
+msgstr "URL de l'icone"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Social Network title"
+msgstr "Titre des Réseaux Sociaux"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Youtube link title"
+msgstr "Titre du lien Youtube"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Twitter link title"
+msgstr "Titre du lien Twitter"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "LinkedIn link title"
+msgstr "Titre du lien LinkedIn"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Youtube link URL"
+msgstr "Titre de l'URL Youtube"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Twitter link URL"
+msgstr "Titre de l'URL Twitter"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "LinkedIn link URL"
+msgstr "Titre de l'URL LinkedIn"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Icon path for Youtube"
+msgstr "Chemin du lien de l'icone Youtube"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Icon path for Twitter"
+msgstr "Chemin du lien de l'icone Twitter"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Icon path for LinkedIn"
+msgstr "Chemin du lien de l'icone LinkedIn"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Language title"
+msgstr "Titre de la langue"
+
+msgctxt "cats_ressoc_admin_page"
+msgid "Social Network bloc"
+msgstr "Bloc des Réseaux Sociaux"
+
+msgctxt "cats_supart_admin_page"
+msgid "Su/Part head administration page"
+msgstr "Page d'administration des entêtes Start-ups et Partenaires"
+
+msgctxt "cats_supart_admin_page"
+msgid "Up title"
+msgstr "Titre du haut"
+
+msgctxt "cats_supart_admin_page"
+msgid "Main down colored title"
+msgstr "Sous-titre partie colorée"
+
+msgctxt "cats_supart_admin_page"
+msgid "Main down title"
+msgstr "Sous-titre partie non-colorée"
+
+msgctxt "cats_supart_admin_page"
+msgid "Head of the main Start-ups page"
+msgstr "Entête de la page des Start-ups"
+
+msgctxt "cats_supart_admin_page"
+msgid "Head of the main Partner page"
+msgstr "Entête de la page des Partenaires"
+
+msgctxt "cats_supart_admin_page"
+msgid "Head Su/Part bloc"
+msgstr "Entête des pages des Su et Part"
+
+msgctxt "cats_chicle_admin_page"
+msgid "Numbers's site administration page"
+msgstr "Page d'administration des chiffres clés du site"
+
+msgctxt "cats_chicle_admin_page"
+msgid "Number"
+msgstr "chiffre clé"
+
+msgctxt "cats_chicle_admin_page"
+msgid "Text description"
+msgstr "Description du chiffre"
+
+msgctxt "cats_chicle_admin_page"
+msgid "Head chicle bloc"
+msgstr "Entête du bloc des chiffres clés"
+
+msgctxt "cats_chicle_admin_page"
+msgid "Head chicle mobile bloc"
+msgstr "Entête du bloc des chiffres clés pour la partie mobile et tablette"
+
+msgctxt "cats_innov_admin_page"
+msgid "Innovation administration page"
+msgstr "Page d'administration du bloc innovation"
+
+msgctxt "cats_innov_admin_page"
+msgid "Main title"
+msgstr "Titre principal grisé"
+
+msgctxt "cats_innov_admin_page"
+msgid "Text description title"
+msgstr "Début du texte capitalisé"
+
+msgctxt "cats_innov_admin_page"
+msgid "Text description"
+msgstr "Texte capitalisé"
+
+msgctxt "cats_innov_admin_page"
+msgid "Head innov block"
+msgstr "Bloc header innovation"

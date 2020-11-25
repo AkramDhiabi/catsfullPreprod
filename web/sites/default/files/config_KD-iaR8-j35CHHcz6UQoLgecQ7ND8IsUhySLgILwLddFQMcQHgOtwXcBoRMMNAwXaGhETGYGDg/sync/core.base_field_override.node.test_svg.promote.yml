@@ -1,0 +1,22 @@
+uuid: 574247ae-3c19-4922-8879-0a4d10da8abe
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.test_svg
+id: node.test_svg.promote
+field_name: promote
+entity_type: node
+bundle: test_svg
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

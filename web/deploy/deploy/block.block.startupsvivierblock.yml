@@ -1,0 +1,31 @@
+uuid: 87cd2fa8-869f-412c-9c82-764f9edd0c5b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:2cf93f32-f7e1-4fb1-b787-cf1318efa61b'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: startupsvivierblock
+theme: lesvillagesbyca
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:2cf93f32-f7e1-4fb1-b787-cf1318efa61b'
+settings:
+  id: 'block_content:2cf93f32-f7e1-4fb1-b787-cf1318efa61b'
+  label: startups-vivier-block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/2
+    negate: false
+    context_mapping: {  }

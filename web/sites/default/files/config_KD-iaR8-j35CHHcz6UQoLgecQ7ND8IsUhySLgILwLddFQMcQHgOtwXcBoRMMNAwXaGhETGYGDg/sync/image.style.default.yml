@@ -1,0 +1,22 @@
+uuid: 5d5e5727-7a5a-49ab-b2bc-6922cbb4dc03
+langcode: en
+status: true
+dependencies: {  }
+name: default
+label: Default
+effects:
+  a9e2f868-ce37-4f66-87dd-c9ee094ec5f1:
+    uuid: a9e2f868-ce37-4f66-87dd-c9ee094ec5f1
+    id: image_crop
+    weight: 1
+    data:
+      width: 300
+      height: 200
+      anchor: center-center
+  af74eaba-7009-4f17-b9b2-fd881092f373:
+    uuid: af74eaba-7009-4f17-b9b2-fd881092f373
+    id: image_resize
+    weight: 2
+    data:
+      width: 300
+      height: 200

@@ -1,0 +1,26 @@
+uuid: 0da29e38-2fff-4356-ba24-4b5bbf5e2d58
+langcode: fr
+status: true
+dependencies:
+  module:
+    - cats_levillagebyca
+    - system
+  theme:
+    - lesvillagesbyca
+id: headsupartbloc2
+theme: lesvillagesbyca
+region: content
+weight: 1
+provider: null
+plugin: part-head_block
+settings:
+  id: part-head_block
+  label: 'Head Su/Part bloc 2'
+  provider: cats_levillagebyca
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/3
+    negate: false
+    context_mapping: {  }

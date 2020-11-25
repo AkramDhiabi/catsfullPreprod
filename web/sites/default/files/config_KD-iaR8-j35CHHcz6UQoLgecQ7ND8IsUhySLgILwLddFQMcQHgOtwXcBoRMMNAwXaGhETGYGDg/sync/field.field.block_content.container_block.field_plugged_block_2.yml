@@ -1,0 +1,22 @@
+uuid: d27747cd-e90a-4667-ab76-221148475655
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.container_block
+    - field.storage.block_content.field_plugged_block_2
+  module:
+    - block_field
+id: block_content.container_block.field_plugged_block_2
+field_name: field_plugged_block_2
+entity_type: block_content
+bundle: container_block
+label: plugged-block-2
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

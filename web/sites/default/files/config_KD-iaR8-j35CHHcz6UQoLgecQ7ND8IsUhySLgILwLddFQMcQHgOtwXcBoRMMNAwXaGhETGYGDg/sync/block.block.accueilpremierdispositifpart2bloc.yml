@@ -1,0 +1,31 @@
+uuid: 2c1391ba-3c04-4ba8-89f1-16f54070b448
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:misc_content_block:213e6c08-6072-4046-9a66-a16bf016a024'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: accueilpremierdispositifpart2bloc
+theme: lesvillagesbyca
+region: content
+weight: -21
+provider: null
+plugin: 'block_content:213e6c08-6072-4046-9a66-a16bf016a024'
+settings:
+  id: 'block_content:213e6c08-6072-4046-9a66-a16bf016a024'
+  label: accueil-premier-dispositif-part2-bloc
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

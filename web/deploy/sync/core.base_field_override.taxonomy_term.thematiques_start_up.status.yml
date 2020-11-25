@@ -1,0 +1,22 @@
+uuid: 04350788-8056-40f8-a674-c7eb5797b05c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.thematiques_start_up
+id: taxonomy_term.thematiques_start_up.status
+field_name: status
+entity_type: taxonomy_term
+bundle: thematiques_start_up
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

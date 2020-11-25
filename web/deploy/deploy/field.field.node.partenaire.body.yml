@@ -1,0 +1,22 @@
+uuid: e48ca38b-1da4-4419-a789-79b477fac613
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.partenaire
+  module:
+    - text
+id: node.partenaire.body
+field_name: body
+entity_type: node
+bundle: partenaire
+label: Partenaire-Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

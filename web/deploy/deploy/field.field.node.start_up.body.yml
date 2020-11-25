@@ -1,0 +1,22 @@
+uuid: e977ac96-0350-4345-a125-96c64bf78ea1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.start_up
+  module:
+    - text
+id: node.start_up.body
+field_name: body
+entity_type: node
+bundle: start_up
+label: Startup-Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

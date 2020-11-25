@@ -1,0 +1,22 @@
+uuid: dd31cdb9-764e-41f1-9f3b-aa1a35fc4436
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.village
+id: node.village.promote
+field_name: promote
+entity_type: node
+bundle: village
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

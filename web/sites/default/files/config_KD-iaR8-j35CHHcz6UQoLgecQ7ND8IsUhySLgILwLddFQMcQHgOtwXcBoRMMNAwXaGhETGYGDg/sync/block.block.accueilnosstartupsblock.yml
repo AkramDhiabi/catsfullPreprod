@@ -1,0 +1,31 @@
+uuid: a49a6b64-f640-456f-a39e-bf3840ac0d58
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:40d8accf-533d-48a2-a966-9f1e2a4ea032'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: accueilnosstartupsblock
+theme: lesvillagesbyca
+region: content
+weight: -14
+provider: null
+plugin: 'block_content:40d8accf-533d-48a2-a966-9f1e2a4ea032'
+settings:
+  id: 'block_content:40d8accf-533d-48a2-a966-9f1e2a4ea032'
+  label: accueil-nos-startups-block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

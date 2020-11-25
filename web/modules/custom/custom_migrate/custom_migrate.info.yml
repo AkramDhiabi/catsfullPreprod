@@ -1,0 +1,5 @@
+name: Custom migrate
+type: module
+description: Migrate import for LesVillagesByCA
+core: 8.x
+package: Custom

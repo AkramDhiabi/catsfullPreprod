@@ -1,0 +1,8 @@
+uuid: e75236ed-5926-4d66-9fa9-5baa1740bada
+langcode: en
+status: true
+dependencies: {  }
+id: misc_content_text_video
+label: 'Misc. content text video'
+revision: 0
+description: 'Include different blocs ( text/ videos)'

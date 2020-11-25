@@ -1,0 +1,20 @@
+uuid: 25ad2845-8cf3-4331-9299-74b0993d44dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_village_startup_counter
+field_name: field_village_startup_counter
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

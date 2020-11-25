@@ -1,0 +1,8 @@
+uuid: 58791359-ad3f-4525-85d7-fad4cab1059e
+langcode: en
+status: true
+dependencies: {  }
+id: accroche_startup_text
+label: 'Accroche Startup Text'
+revision: 0
+description: ''

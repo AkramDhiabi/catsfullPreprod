@@ -1,0 +1,30 @@
+uuid: 1578cb7a-e876-4c5d-afb5-4fc7d59a3822
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.test_geo.body
+    - node.type.test_geo
+  module:
+    - text
+    - user
+id: node.test_geo.teaser
+targetEntityType: node
+bundle: test_geo
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

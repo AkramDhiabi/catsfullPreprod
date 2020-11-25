@@ -1,0 +1,15 @@
+uuid: b476a0e8-8bd3-4175-9118-e6cf2bc84bfb
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - custom_migrate
+_core:
+  default_config_hash: 4G6mc8ELiQuZs36G2NOz-r_z8P65QfIkFxez6QshHkE
+id: village
+label: 'Custom migrations'
+description: 'Custom data migrations.'
+source_type: 'CSV files'
+module: null
+shared_configuration: null

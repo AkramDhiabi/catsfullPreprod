@@ -1,0 +1,20 @@
+uuid: 2fa64c7a-c8ec-4857-a8f7-9ec6905e5af0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_thematiques_partenaire
+field_name: field_thematiques_partenaire
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

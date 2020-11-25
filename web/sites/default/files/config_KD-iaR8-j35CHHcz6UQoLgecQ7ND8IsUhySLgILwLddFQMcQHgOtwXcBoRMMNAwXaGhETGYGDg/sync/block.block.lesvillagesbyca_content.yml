@@ -1,0 +1,22 @@
+uuid: d2081eb8-56f6-4c57-896e-9ea177e9034d
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - lesvillagesbyca
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: lesvillagesbyca_content
+theme: lesvillagesbyca
+region: content
+weight: 8
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

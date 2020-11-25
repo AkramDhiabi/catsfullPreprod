@@ -1,0 +1,22 @@
+uuid: cb7efca8-ee1b-4b5b-8b0f-54c9ca6ed786
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.test_svg
+id: node.test_svg.status
+field_name: status
+entity_type: node
+bundle: test_svg
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,590 @@
+
+p {
+  margin:0;
+}
+
+/*  colors */
+.btn-primary {
+    color:#ff2655;
+}
+
+.btn-primary-bis {
+    color:#1D1045;
+}
+
+.btn-secondary {
+    color:#A3D9E7;
+}
+
+.btn-secondary-bis {
+    color:#F4CC66;
+}
+
+
+/******************************************************* Temporary (to be optimized) **************************************/
+/*  ***************************button secondary****************************/
+
+#block-decouvrezreseaubutton a:hover,
+#block-startupsbutton a:hover,
+#block-partenairesbutton a:hover,
+#block-lereseauilspartagentblock .field--name-field-button .row a:hover,
+#block-views-block-recherche-villages-principal-block .fiche a:hover {
+  background-color: #B72A48;
+  cursor: pointer;
+  text-decoration:none !important;
+  color: #FFF !important;
+}
+
+#block-views-block-recherche-villages-principal-block .fiche-footer {
+  text-align: center;
+}
+
+#block-views-block-recherche-villages-principal-block .fiche a {
+  position: relative;
+  bottom: -30px;
+}
+#block-views-block-recherche-villages-principal-block .view-recherche-villages {
+  position: relative;
+}
+#block-views-block-recherche-villages-principal-block .fiche-arrow-container {
+  display: none;
+  z-index: 1000;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  top: 1.2rem;
+  left: 1.5rem;
+  background: url(/themes/lesvillagesbyca/images/Ellipse.svg) no-repeat;
+  transition: all 0.25s ease-in;
+  cursor: pointer;
+}
+.arrow-left-fiche {
+  padding: 11px 11px;
+  transition: all 0.25s ease-in;
+  z-index: 1000;
+}
+.arrow-left-fiche:hover {
+  display: none;
+  transition: all 0.25s ease-in;
+
+}
+.arrow-left-fiche-hover {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  transition: all 0.25s ease-in;
+}
+
+  /* between title and subtitle */
+  .ca-blocks-intern-separator {
+    width : 35px;
+    height: 6px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    background-color: #F4CC66;
+  }
+    
+  .ca-blocks-subtitle-secondary-bis {
+    font-size: 37px;
+    font-family:'Montserrat';
+    font-weight: 600;  /* Semibold */
+    color: #F4CC66;
+  }
+  #block-lereseauvillagesblock {
+    margin-bottom: 3rem;
+  }
+  
+
+/* block PREMIER DISPOSITIF : contenu  */
+
+#ca-blocks-container {
+    margin-top:33px;
+    margin-right:-88px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1px;
+    z-index:1;
+  }
+  .content.container {
+    margin-top: 10px;
+  }
+  #ca-blocks-content-text {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  #ca-blocks-content-photo {
+    margin-top: 200px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: right;
+  
+  }
+ 
+  #ca-blocks-blocks-player-container {
+    z-index:2;
+    right:50%;
+    left:50%;
+    /* border:1px solid grey; */
+    text-align:center;
+    margin-top: -150px;
+  }
+  
+  .ca-blocks-text-content {
+    font-family: 'Muli';
+    font-size: 18px;
+    font-weight: 30px;
+    line-height: 30px;
+  }
+ 
+/* Header */
+#ca-header-youtube {
+  width: 23px;
+  height: 24px;
+  color: #FF0000;
+  margin-right:10px;
+}
+
+#ca-header-twitter {
+  width: 21px;
+  height: 20px;
+  color: #00ACEE;
+  margin-right:10px;
+}
+
+#ca-header-linkedin {
+  width: 19px;
+  height: 19px;
+  color: #FF0000;
+  margin-right:14px;
+}
+
+#ca-header-flag-uk {
+  border-radius:50%;
+  width:24px;
+  height:24px;
+  border:1px solid #9BD3E1;
+}
+
+
+/*  ***************************webradio button****************************/
+.ca-header-webradio-button {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  height:34px;
+  width:127px;
+  /* border: 1px solid; */
+  color : #1D1045;
+  font-size: 14px;
+  padding: 2px;
+  margin-right:14px;
+}
+
+button.ca-header-webradio-button.ca-fonts-montserrat-medium {
+    transition: all 0.25s ease-in;
+    text-transform: uppercase;
+}
+
+button.ca-header-webradio-button.ca-fonts-montserrat-medium:hover {
+    color: #ff2655;
+    border-color: #ff2655;
+    transition: all 0.25s ease-in;
+}
+
+/*  End Header */
+
+
+/* Fonts */
+.ca-fonts-montserrat {
+  font-family: 'Montserrat';
+  font-weight: 100;
+}
+
+.ca-fonts-montserrat-light {
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+.ca-fonts-montserrat-regular {
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+
+.ca-fonts-montserrat-medium {
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+.ca-fonts-montserrat-semibold {
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+.ca-fonts-montserrat-extrabold {
+  font-family: 'Montserrat';
+  font-weight: 800;
+}
+
+
+/*  startup- partenaires cards settings   */
+.vignette-header {
+  background-color:transparent;
+}
+.titre-color-head {
+  color: #f4cc66;
+}
+.ca-blocks-subtitle-black > h3,
+.ca-blocks-title > h2 {
+  text-transform: uppercase;
+}
+
+.vignette-logo-container img {
+    /*min-width: 50%;
+    min-height: 50%;
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;*/
+    max-width: inherit;
+    max-height: 95px;
+    width: auto;
+    height: auto;
+}
+
+.vignette-title {
+  font-size:22px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.village-rounded-img {
+  border-radius:50%;
+  margin:5px 5px 5px 0;
+}
+
+.village-title {
+  font-size:16px;
+  color:#000;
+  margin-bottom: 5px;
+}
+
+.village-startups{
+  font-size:12px;
+  color:#000;
+}
+
+
+select#edit-field-startup-thematique-value {
+     border-radius: 30px; 
+     box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.14);
+}
+
+
+label {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.cssgrid {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: auto;
+ grid-auto-flow: row dense;
+}
+
+.cssgrid .wide { grid-column: auto / span 2; }
+.cssgrid .tall { grid-row: auto / span 2; }
+.cssgrid .tall .thumb { min-height: 400px; }
+.cssgrid .big { grid-column: auto / span 2; grid-row: auto / span 2; }
+
+.responsive {
+  border:1px solid red;
+  height :300px;
+  width:100%;
+}
+
+
+.search-box {
+  border-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+}
+
+.loupe {
+  height:27px;
+  width:27px;
+  background: url(../images/magnifying-glass.png) no-repeat;
+  border: 0;
+}
+
+.view-recherche-villages .view-filters { text-align : center;}
+
+.view-recherche-villages .views-row {
+  z-index: -1;
+  transition: all 0.25s ease-in;
+}
+
+.view-recherche-villages .views-row:hover {
+    background-color: #F0F0F0;
+    transition: all 0.25s ease-in;
+}
+.view-recherche-villages .views-row:last-child {
+  margin-bottom: 20px;
+}
+
+svg path:hover {fill: #ff2655 !important;}
+
+/***** card map ****/
+.map-village-container 
+{
+  box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  display: inline-block;
+  width: 50%;
+}
+#block-views-block-recherche-villages-block-1 {
+  padding: 0;
+  border-radius: 0 20px 20px 0;
+  display: inline-block;
+  width: 50%;
+}
+
+
+/*** startup /partenaire settings ***/
+div#views-bootstrap-last-startups-block-1 .row > div,
+div#views-bootstrap-last-partenaires-block-1 .row > div {
+margin:auto;
+}
+.label-filter {
+  text-transform: uppercase;
+}
+.views-view-grid .views-col {
+	margin: auto;
+}
+
+.logo-margin {
+	text-align: center;
+} 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #FFF;
+}
+.ajax-progress-fullscreen {
+    text-align: center;
+    background: url('images/status-active.gif') no-repeat center center;
+    min-height: 30px;
+    padding: 10px;
+    vertical-align: middle;
+    width: 100px;
+    position: relative;
+    margin-bottom: 10px;
+}
+form#views-exposed-form-recherche-villages-principal-block {
+    position: relative;
+    z-index: 15;
+    display: inline-block;
+    /* background-color: #FFF; */
+    border-radius: 5px;
+    /* margin-top: 25px; */
+    /* max-height: 45px; */
+    /* width: 23rem; */
+    padding: 0px 10px;
+}
+.exposed-form-su-part {
+  margin: 20px;
+}
+
+/* recherche village -listing */
+.village-row {
+  margin:0;
+  padding-left: 30px;
+}
+
+.village-col-image {
+  flex: 0;
+  padding: 0;
+}
+
+.village-col-details {
+  padding: 0;
+}
+
+.village-margin-right {
+  margin-right:10px;
+}
+
+.village-table-details {
+  margin: inherit;
+}
+
+.geolocation-map-container {
+    border-radius: 0 20px 20px 0;
+}
+
+
+/* startups- partenaires validation buttton */
+.validation-button {
+  bottom: 55px;
+  padding: 10px 24px;
+  background-color: #ff2655;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size:14px;
+  color: #FFF;
+}
+.validation-button:hover {
+  background-color: #B72A48;
+  transition: all 0.25s ease-in;
+}
+
+/* align startup/partenaire filters */
+.form-item, .form-actions {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    display: inline-block;
+}
+.form-item .chosen-container-single .chosen-single {
+    background-image: none;
+    border-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    line-height: 120px !important;
+    padding: 10px;
+    height: 45px;
+    box-shadow: 0px 3px 10px #00000073;
+    background: white;
+}
+.chosen-container-single .chosen-single span {
+    color: black;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 4px;
+    font-weight: 600;
+    line-height: 17px;
+}
+a.chosen-single > span {
+  margin-top:4px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight:600;
+  line-height: 17px;
+  color:#C4C4C4;
+  text-align:center;
+}
+.chosen-container-single .chosen-single div b {
+    display: block;
+    height: 50%;
+    background: url(../images/Polygon.png) no-repeat !important;
+    margin-top: 100%;
+    margin-bottom: 70%;
+    margin-left: -10px;
+}
+.chosen-container-single:active .chosen-single div b:active {
+    display: block;
+    height: 50%;
+    background: url(../images/Polygon.png) no-repeat !important;
+    margin-top: 100%;
+    margin-bottom: 70%;
+    margin-left: -10px;
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+/* Languages */
+#block-languageswitcher .links {
+    list-style: none;
+    padding: 0;
+}
+#block-languageswitcher .links .fr a {
+    background: url(/themes/lesvillagesbyca/images/fr-drapeau.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#block-languageswitcher .links .en a {
+    background: url(/themes/lesvillagesbyca/images/uk-drapeau.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#block-languageswitcher {
+    display: inline-block;
+    position: relative;
+    right: -14rem;
+    bottom: 1.05rem;
+}
+#block-sociallinksheader {
+    display: inline-block;
+}
+.header-link-social-network {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+#header-link-social-network-lang {
+  margin-top:32px
+}
+.button-footer-webradio {
+  margin-bottom:52px;
+  text-transform: uppercase;
+}
+.views-row #displayed-fiche {
+  display: block;
+}
+/* Cookies compliance */
+.sliding-popup-bottom {
+    width: 100%;
+}
+.sliding-popup-bottom .eu-cookie-compliance-content {
+    padding: 1% 3%;
+    background: rgba(59,59,59,0.9) !important;
+    font-size: 14px;
+    color: #fff;
+    max-width: 70%;
+}
+.sliding-popup-bottom .eu-cookie-compliance-message {
+    max-width: 80%;
+}
+.sliding-popup-bottom .eu-cookie-compliance-message p {
+    margin-bottom: 5px;
+}
+.eu-cookie-compliance-content button,
+.eu-cookie-compliance-buttons button {
+    padding: 10px;
+    background-color: #ff2655;
+    color: #FFF;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.32);
+    transition: all 0.25s ease-in;
+}
+.eu-cookie-compliance-buttons .eu-cookie-compliance-secondary-button {
+    margin-right: 5px;
+}
+.eu-cookie-compliance-buttons .decline-button {
+    visibility: hidden;
+}
+/* Innovation block */
+.innovation-text-outer {
+  text-transform: uppercase;
+}
+.innovation-text-inner span {
+  text-transform: uppercase;
+}

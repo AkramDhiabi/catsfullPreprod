@@ -1,0 +1,10 @@
+{%
+  set classes = [
+    'button-secondary-header-positionning'
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+</div>

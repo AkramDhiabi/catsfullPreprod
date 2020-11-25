@@ -1,0 +1,26 @@
+uuid: 38243f57-b926-411b-b739-b0218787e419
+langcode: fr
+status: true
+dependencies:
+  module:
+    - image_effects
+name: mini_village_new
+label: mini-village-new
+effects:
+  58f4e6b0-960e-4c04-be20-64fd22721a4e:
+    uuid: 58f4e6b0-960e-4c04-be20-64fd22721a4e
+    id: image_effects_scale_and_smart_crop
+    weight: 1
+    data:
+      width: '75'
+      height: '75'
+      upscale: false
+      simulate: false
+      algorithm: entropy_slice
+  890b506f-9239-42f5-97d6-eb6c3508a656:
+    uuid: 890b506f-9239-42f5-97d6-eb6c3508a656
+    id: image_resize
+    weight: 2
+    data:
+      width: 75
+      height: 75

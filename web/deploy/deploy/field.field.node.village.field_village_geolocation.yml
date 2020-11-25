@@ -1,0 +1,21 @@
+uuid: 533f4c41-d683-4291-bb7a-8c82ff0bceca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_village_geolocation
+    - node.type.village
+  module:
+    - geolocation
+id: node.village.field_village_geolocation
+field_name: field_village_geolocation
+entity_type: node
+bundle: village
+label: Village_Geolocation
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

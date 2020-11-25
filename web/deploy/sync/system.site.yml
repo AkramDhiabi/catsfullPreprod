@@ -1,0 +1,15 @@
+uuid: c95a5029-6f8f-4c80-96d1-0d25c93d077a
+name: 'Le Village by CA'
+mail: atelier.digital@ca-ts.fr
+slogan: 'Un réseau unique d''accélérateurs en France'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: atelier.digital@ca-ts.fr

@@ -1,0 +1,22 @@
+uuid: f0c66058-fb8b-4e0d-bfa2-d782a25a6f32
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.misc_content_text_video
+    - field.storage.block_content.field_misc_content_text_video_yo
+  module:
+    - block_field
+id: block_content.misc_content_text_video.field_misc_content_text_video_yo
+field_name: field_misc_content_text_video_yo
+entity_type: block_content
+bundle: misc_content_text_video
+label: misc-content-text-video-youtube-video
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

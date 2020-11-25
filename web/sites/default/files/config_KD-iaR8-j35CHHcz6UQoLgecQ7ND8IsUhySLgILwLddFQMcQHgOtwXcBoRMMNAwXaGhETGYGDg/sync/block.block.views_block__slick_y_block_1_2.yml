@@ -1,0 +1,30 @@
+uuid: 23b8d6f3-90bc-4159-9fbf-1d9a85f36cf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slick_y
+  module:
+    - system
+    - views
+  theme:
+    - lesvillagesbyca
+id: views_block__slick_y_block_1_2
+theme: lesvillagesbyca
+region: content
+weight: -16
+provider: null
+plugin: 'views_block:slick_y-block_1'
+settings:
+  id: 'views_block:slick_y-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '1'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

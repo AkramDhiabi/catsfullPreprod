@@ -1,0 +1,31 @@
+uuid: 9e40d5b0-edee-4fa3-a2a9-ab06285715a1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:accroche_startup_text:e1ee5e3a-d458-4148-8b7e-f7cff6b4943a'
+  module:
+    - block_content
+    - system
+  theme:
+    - lesvillagesbyca
+id: startupsaccrochetexte
+theme: lesvillagesbyca
+region: jumbotron
+weight: -21
+provider: null
+plugin: 'block_content:e1ee5e3a-d458-4148-8b7e-f7cff6b4943a'
+settings:
+  id: 'block_content:e1ee5e3a-d458-4148-8b7e-f7cff6b4943a'
+  label: startups-accroche-texte
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/2
+    negate: false
+    context_mapping: {  }

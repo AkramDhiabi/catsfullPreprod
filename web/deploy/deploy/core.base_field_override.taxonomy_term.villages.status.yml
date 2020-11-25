@@ -1,0 +1,22 @@
+uuid: 4551646c-4a8d-4279-963a-4f5e7068e3a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.villages
+id: taxonomy_term.villages.status
+field_name: status
+entity_type: taxonomy_term
+bundle: villages
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,30 @@
+uuid: a6ebc4d9-86be-46e3-8dc2-640f1f3a9e19
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.startups_listing
+  module:
+    - system
+    - views
+  theme:
+    - lesvillagesbyca
+id: views_block__startups_listing_block_2
+theme: lesvillagesbyca
+region: content
+weight: 4
+provider: null
+plugin: 'views_block:startups_listing-block_2'
+settings:
+  id: 'views_block:startups_listing-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /partenaires
+    negate: false
+    context_mapping: {  }

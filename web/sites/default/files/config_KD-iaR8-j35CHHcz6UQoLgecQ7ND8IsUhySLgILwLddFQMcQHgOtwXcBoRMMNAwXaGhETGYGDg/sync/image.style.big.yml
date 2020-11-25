@@ -1,0 +1,22 @@
+uuid: 353bbb56-0dbc-4112-a1a8-568afda23ef9
+langcode: en
+status: true
+dependencies: {  }
+name: big
+label: Big
+effects:
+  8a1558d1-44af-4763-a0d0-a707564f6484:
+    uuid: 8a1558d1-44af-4763-a0d0-a707564f6484
+    id: image_crop
+    weight: 1
+    data:
+      width: 600
+      height: 400
+      anchor: center-center
+  b994c2ea-b74a-4d44-bdbb-119eaa1f9256:
+    uuid: b994c2ea-b74a-4d44-bdbb-119eaa1f9256
+    id: image_resize
+    weight: 2
+    data:
+      width: 600
+      height: 400

@@ -1,0 +1,22 @@
+uuid: 7258ef44-15f8-4347-b05c-3ff60489f673
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - lesvillagesbyca
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: lesvillagesbyca_help
+theme: lesvillagesbyca
+region: content
+weight: 6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

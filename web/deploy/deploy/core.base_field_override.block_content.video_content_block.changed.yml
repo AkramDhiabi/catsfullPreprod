@@ -1,0 +1,18 @@
+uuid: d715eea3-217a-485c-a124-78d4a6c7503a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.video_content_block
+id: block_content.video_content_block.changed
+field_name: changed
+entity_type: block_content
+bundle: video_content_block
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
